@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Teeth Detection and Segmentation",
+      "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation",
+      "image": "assets/images/tcc.jpeg",
+      "description": "Atualmente estou me dedicando à aplicação e treinamento da rede neural YOLOv8 para classificação e segmentação de dentes decíduos e permanentes em crianças de 4 a 12 anos, dataset criado em parceria com o curso de odontologia da UFRGS.",
+      "tags": ["Python", "Yolo", "AI"]
+    },
+    {
+      "name": "Alura Plus",
+      "link": "https://alura-plus-taupe-six.vercel.app/",
+      "image": "https://camo.githubusercontent.com/a42a56ac3142e25e548f7ee2469cafb1bb5dbe4ff0d899587e24957e57eacb0e/68747470733a2f2f696d6775722e636f6d2f6e4b5566374d4b2e706e67",
+      "description": "Um projeto bem simples desenvolvido em HTML e CSS para promover o Alura Plus e o Alura Língua como Combo Plus. A página é composta por diversas seções, cada uma destacando os diferenciais da plataforma Alura.",
+      "tags": ["HTML", "CSS"]
+    },
+    {
+      "name": "Portfolio V1",
+      "link": "https://portfolio-blush-eight-86.vercel.app/",
+      "image": "assets/images/portfolio.png",
+      "description": "Meu primeiro portfolio, feito mais como um teste e conhecimento dos conceitos de HTML e CSS, responsividade também.",
+      "tags": ["HTML", "CSS"]
+    },
+    {
+      "name": "Universidade UNES",
+      "link": "https://unes-universidade-blue.vercel.app/",
+      "image": "assets/images/unes.png",
+      "description": "O objetivo do projeto é criar um site para uma universidade fictícia, contendo páginas para apresentação, informações sobre a universidade, e uma página de contato.",
+      "tags": ["HTML", "CSS"]
+    },
+    {
+      "name": "Monitoria PC",
+      "link": "https://github.com/pepemesquita/Monitoria",
+      "image": "https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg",
+      "description": "Contém uma série de exercícios desenvolvidos quando fui monitor da disciplina de Programação de Computadores. Os exercícios abrangem diversas áreas da programação, incluindo alocação dinâmica, ponteiros, funções e estruturas de dados.",
+      "tags": ["C"]
+    },
+    {
+      "name": "Sistema de Gerenciamento Hospitalar",
+      "link": "https://github.com/pepemesquita/Hospital_Pelotas",
+      "image": "assets/images/hospital.png",
+      "description": "Desenvolvi um sistema de gerenciamento hospitalar robusto, utilizando uma combinação de tecnologias de ponta, o sistema oferece funcionalidades abrangentes, adaptadas às necessidades de diferentes setores: médicos, farmácia, pacientes e etc.",
+      "tags": ["Javascript", "Node.js", "Express.js", "MySQL", "Apache"]
+    },
+    {
+      "name": "Face Recognition in Python",
+      "link": "https://github.com/pepemesquita/Face_Recognition",
+      "image": "https://miro.medium.com/v2/resize:fit:690/1*2VEXmDdBxs8yo7Le5KRTpw.png",
+      "description": "Este projeto é uma implementação de reconhecimento facial em Python para o grupo de robótica da universidade. Ele usa a biblioteca OpenCV, os frameworks Dlib, Haar Cascade e Media Pipe para capturar imagens de câmeras e realizar reconhecimento facial em tempo real.",
+      "tags": ["Python"]
+    },
+    {
+      "name": "Cache Simulator",
+      "link": "https://github.com/pepemesquita/Cache_simulator",
+      "image": "https://www.hardware.com.br/wp-content/uploads/static/wp/2023/05/22/cache.jpg",
+      "description": "Um simulador de cache completo, com a sofisticada política de substituição aleatória. Este simulador foi implementado para oferecer uma experiência envolvente e realista na gestão de memória cache. Os usuários podem explorar o impacto da política de substituição aleatória em diferentes cenários de acesso à memória.",
+      "tags": ["Python"]
+    },
+    {
+      "name": "AI Classification",
+      "link": "https://github.com/pepemesquita/h2ia",
+      "image": "https://www.researchgate.net/publication/360593200/figure/fig5/AS:11431281179452357@1691190157220/In-situ-PCA-for-Iris-dataset-classification-a-Example-images-of-classified-Iris.png",
+      "description": "Este projeto é uma implementação de dois treinamentos de classificação em Python para o grupo HUB de Inteligência Artificial da UFPEL. Usei algunas datasets públicos do kaggle e desenvolvi um treinamento usando uma árvore de decisão.",
+      "tags": ["Python", "Sklearn"]
+    },
+    {
+      "name": "Resgate a Princesa!",
+      "link": "https://github.com/pepemesquita/RPG_2D",
+      "image": "https://img.itch.zone/aW1hZ2UvMjIwOTU2MC8xMzA2NjY4Ny5wbmc=/original/Wryvn1.png",
+      "description": "Um RPG 2D feito como projeto final quando eu estava estudando os conceitos de Programação Orientada a Objetos durante minha graduação.",
+      "tags": ["Java"]
+    },
+    {
+      "name": "Calculadora MIPS",
+      "link": "https://github.com/pepemesquita/AOC-1",
+      "image": "https://escolaeducacao.com.br/wp-content/uploads/2020/02/como-calcular-porcentagem-na-calculadora.png",
+      "description": "Desenvolvi uma calculadora baseada na arquitetura MIPS, utilizando uma linguagem de baixo nível, o Assembly.",
+      "tags": ["Assembly"]
+    },
+    {
+      "name": "Blackjack",
+      "link": "https://github.com/pepemesquita/Blackjack-Game",
+      "image": "https://images.sigma.world/blackjack-card-counting-scaled-1.jpg",
+      "description": "No jogo Blackjack você deve atingir um número próximo de 21 ou chegar a 21, para vencer o jogo. Desenvolvido como trabalho final da disciplina de Programação de Computadores.",
+      "tags": ["C"]
+    }
+  ]
+  
