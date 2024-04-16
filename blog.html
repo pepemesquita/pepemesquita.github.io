@@ -1,283 +1,61 @@
-<!DOCTYPE html><html class="dark"><head>
-    <meta charset="utf-8">
-    <title>Blog | Pedro</title>
-    <link rel="shortcut icon" href="../images/logo3.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/index.65b773fc.css">
-    <script type="module" defer="" src="js/index.4baf2f1e.js"></script>
+---
+layout: default
+title: Blog | Pedro
+---
 
-    
-    <link rel="shortcut icon" href="../images/logo3.png" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="../images/logo3.png">
-    <meta name="theme-color" content="#454e56">
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <link rel="manifest" href="/manifest.json">
-
-
-    <link rel="canonical" href="https://pepemesquita.github.io/about/blog">
-
-    <meta name="description" content="">
-    <meta name="image" content="https://pepemesquita.github.io/about/images/cover.png">
-
-    <meta property="og:title" content="Blog">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://pepemesquita.github.io/about/blog">
-    <meta property="og:image" content="images/cover.png">
-    <meta property="og:description" content="">
-
-</head>
+<html class="dark">
   <body>
-    <global-data permalink="https://pepemesquita.github.io/blog" vimeo="" youtube="" free="" next="" prev="">
-  </global-data>
+    <header class="text-center mb-8 mt-20">
+      <h1 class="text-5xl mb-1">Blog</h1>
+      <p class="my-0 text-gray3">
+        Meu blog com informações, ideias e contribuições relevantes, já outras
+        nem tanto.
+      </p>
+    </header>
 
-    
-<nav class="flex justify-between p-2 md:p-2 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50  bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent border-bottom">
-  <a class="flex gradient-text-pink justify-center border-green-500 items-center text-center font-extrabold text-slate-900 text-4xl" href="/">
-  <baffle-text baff="</> Pedro"></baffle-text>
-  </a>
-  
-  <ul class="flex  justify-center items-center">
-    <ul class="flex relative justify-center drop-shadow items-center">
-        <li class="mx-2 md:mx-4 hover:scale-105 transition-transform">
-          <a href="about.html" class="font-sans text-xl font-bold leading-none text-gray2 hover:text-white">Sobre Mim</a>
-        </li>
-        <li class="mx-2 md:mx-4 hover:scale-105 transition-transform">
-          <a href="blog.html" class="font-sans text-xl font-bold leading-none text-gray2 hover:text-white">Blog</a>
-        </li>
-        <li class="mx-2 md:mx-4 hover:scale-105 transition-transform">
-          <a href="project.html" class="font-sans text-xl font-bold leading-none text-gray2 hover:text-white">Projetos</a>
-        </li>
-  </ul>
-    <li class="ml-2">
-      <modal-action type="open" name="search">
-        <button class="flex">
-          <span class="text-pink-500 w-6 mx-2"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="svg-inline--fa fk-search fk-w-16 fk-9x" data-icon="search" data-prefix="fad" focusable="false" role="img" viewBox="0 0 512 512"><g class="fk-group"><path fill="currentColor" d="M208 80a128 128 0 1 1-90.51 37.49A127.15 127.15 0 0 1 208 80m0-80C93.12 0 0 93.12 0 208s93.12 208 208 208 208-93.12 208-208S322.88 0 208 0z" class="fk-secondary"></path><path fill="currentColor" d="M504.9 476.7L476.6 505a23.9 23.9 0 0 1-33.9 0L343 405.3a24 24 0 0 1-7-17V372l36-36h16.3a24 24 0 0 1 17 7l99.7 99.7a24.11 24.11 0 0 1-.1 34z" class="fk-primary"></path></g></svg></span>
-        </button>
-      </modal-action>
-    </li>
-  </ul>
-</nav>
+    <div
+      class="mx-auto w-24 h-1 my-12 bg-gradient-to-r from-gray5 to-gray4 rounded-full"
+    ></div>
 
-
-    
-<header class="text-center mb-8 mt-20">
-  <h1 class="text-5xl mb-1">Blog</h1>
-  <p class="my-0 text-gray3">Meu blog com informações, ideias e contribuições relevantes, já outras nem tanto.</p>
-</header>
-
-<div class="mx-auto w-24 h-1 my-12 bg-gradient-to-r from-gray5 to-gray4 rounded-full"></div>
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
-  <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
-    
-    
-    
-
-
-
-<article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out" style="background-image: url('../images/featured_3.webp');">
-    <div class="absolute inset-0 bg-black bg-opacity-50 supports-backdrop-blur:bg-white/60 group-hover:opacity-75 transition duration-300 ease-in-out">
-    </div>
-    <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-        <div class="flex flex-col w-full border-opacity-50">
-            <div class="">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
+      <section
+        class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8"
+      >
+        {% for post in site.posts %}
+        <article
+          class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+          style="background-image: url('{{ post.image }}');"
+        >
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 supports-backdrop-blur:bg-white/60 group-hover:opacity-75 transition duration-300 ease-in-out"
+          ></div>
+          <div
+            class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center"
+          >
+            <div class="flex flex-col w-full border-opacity-50">
+              <div>
                 <h3 class="text-center">
-                    <a class="text-white text-2xl font-bold text-center" href="/blog/standar-linux-dev-lore/">
-                        <span class="absolute inset-0"></span>
-                        Standard Linux Development di Lore Mailing List
-                    </a>
+                  <a
+                    class="text-white text-2xl font-bold text-center"
+                    href="{{ post.url }}"
+                  >
+                    <span class="absolute inset-0"></span>
+                    {{ post.title }}
+                  </a>
                 </h3>
+              </div>
+              <div class="border-dashed border-b-2 m-5 border-slate-700"></div>
+              <div class="text-center h-20 rounded-box place-items-center">
+                <!-- Adicione as tags do post aqui, se desejar -->
+                {% for tag in post.tags %}
+                <span class="shadow-xl tag tag-{{ tag }}"> #{{ tag }} </span>
+                {% endfor %}
+              </div>
             </div>
-            <div class="border-dashed border-b-2 m-5 border-slate-700"></div>
-            <div class="text-center h-20 rounded-box place-items-center">
-                
-                
-                <span class="shadow-xl tag tag-linux">
-                    #linux
-                </span>
-                
-                <span class="shadow-xl tag tag-development">
-                    #development
-                </span>
-                
-                <span class="shadow-xl tag tag-mailing-List">
-                    #mailing-List
-                </span>
-                
-                
-            </div>
-        </div>
-    </div>
-</article>
-    
-    
-
-
-
-<article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out" style="background-image: url('../images/featured_2.webp');">
-    <div class="absolute inset-0 bg-black bg-opacity-50 supports-backdrop-blur:bg-white/60 group-hover:opacity-75 transition duration-300 ease-in-out">
-    </div>
-    <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-        <div class="flex flex-col w-full border-opacity-50">
-            <div class="">
-                <h3 class="text-center">
-                    <a class="text-white text-2xl font-bold text-center" href="/blog/fish-shell/">
-                        <span class="absolute inset-0"></span>
-                        Fish Shell
-                    </a>
-                </h3>
-            </div>
-            <div class="border-dashed border-b-2 m-5 border-slate-700"></div>
-            <div class="text-center h-20 rounded-box place-items-center">
-                
-                
-                <span class="shadow-xl tag tag-fish">
-                    #fish
-                </span>
-                
-                <span class="shadow-xl tag tag-shell">
-                    #shell
-                </span>
-                
-                <span class="shadow-xl tag tag-linux">
-                    #linux
-                </span>
-                
-                
-            </div>
-        </div>
-    </div>
-</article>
-    
-    
-
-
-
-<article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out" style="background-image: url('../images/featured.webp');">
-    <div class="absolute inset-0 bg-black bg-opacity-50 supports-backdrop-blur:bg-white/60 group-hover:opacity-75 transition duration-300 ease-in-out">
-    </div>
-    <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-        <div class="flex flex-col w-full border-opacity-50">
-            <div class="">
-                <h3 class="text-center">
-                    <a class="text-white text-2xl font-bold text-center" href="/blog/shell-scripting/">
-                        <span class="absolute inset-0"></span>
-                        Bash Shell Scripting
-                    </a>
-                </h3>
-            </div>
-            <div class="border-dashed border-b-2 m-5 border-slate-700"></div>
-            <div class="text-center h-20 rounded-box place-items-center">
-                
-                
-                <span class="shadow-xl tag tag-bash">
-                    #bash
-                </span>
-                
-                <span class="shadow-xl tag tag-shell">
-                    #shell
-                </span>
-                
-                <span class="shadow-xl tag tag-linux">
-                    #linux
-                </span>
-                
-                
-            </div>
-        </div>
-    </div>
-</article>
-    
-    
-
-
-
-<article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out" style="background-image: url('../images/featured_1.webp');">
-    <div class="absolute inset-0 bg-black bg-opacity-50 supports-backdrop-blur:bg-white/60 group-hover:opacity-75 transition duration-300 ease-in-out">
-    </div>
-    <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-        <div class="flex flex-col w-full border-opacity-50">
-            <div class="">
-                <h3 class="text-center">
-                    <a class="text-white text-2xl font-bold text-center" href="/blog/bash-shell/">
-                        <span class="absolute inset-0"></span>
-                        Bash Shell
-                    </a>
-                </h3>
-            </div>
-            <div class="border-dashed border-b-2 m-5 border-slate-700"></div>
-            <div class="text-center h-20 rounded-box place-items-center">
-                
-                
-                <span class="shadow-xl tag tag-bash">
-                    #bash
-                </span>
-                
-                <span class="shadow-xl tag tag-shell">
-                    #shell
-                </span>
-                
-                <span class="shadow-xl tag tag-linux">
-                    #linux
-                </span>
-                
-                
-            </div>
-        </div>
-    </div>
-</article>
-    
-  </section>
-</div>
-
-    
-<footer class="container text-center my-6 p-8 text-gray3">
-
-
-    <algolia-search></algolia-search>
-
-
-    <route-loader>
-      <div class="fixed w-full top-0 left-0 h-1 gradient-loader"></div>
-    </route-loader>
-    <modal-dialog name="menu">
-      <div class="flex flex-col justify-center items-center">
-        <div class="grid h-20 card rounded-box place-items-center">
-          <div>
-            <a href="about.html" class="btn btn-red p-0">Sobre</a>
-            <a href="blog.html" class="btn btn-green">Blog</a>
-            <a href="project.html" class="btn btn-blue">Projetos</a>
           </div>
-        </div>
-                <div class="grid h-20 card rounded-box place-items-center">
-                  <modal-action type="open" name="search">
-                    <button class="btn btn-transparent">
-                      <span class="text-pink-500">Busque algo</span>
-                    </button>
-                  </modal-action>
-                </div>
-
-      </div>
-    </modal-dialog>
-    <toast-message></toast-message>
-    <scroll-up></scroll-up>
-    <menu-handler>
-            <modal-action type="open" name="menu">
-              <button class="flex">
-                <span class="text-green-500 w-6 font-extrabold mx-2">M</span>
-              </button>
-            </modal-action>
-    </menu-handler>
-  
-  
-
-    <div class="text-xs">
-        Copyright © 2023 Pedro Henrique Lima <br></a>
+        </article>
+        {% endfor %}
+      </section>
     </div>
-  
-  </footer>
-
-  <route-loader>
-    <div class="fixed w-full top-0 left-0 h-1 gradient-loader"></div>
-  </route-loader>
-  
   </body>
 </html>
