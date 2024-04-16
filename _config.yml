@@ -1,0 +1,24 @@
+# Configurações do site
+title: </> Pedro
+description: Olá, me chamo Pedro, sou desenvolvedor de software e tenho 21 anos, nesse site compartilho ideias, projetos e minhas opiniões.
+url: "" # URL do seu site
+baseurl: "pepemesquita.github.io" # Base URL do seu site (deixe como "/" se estiver na raiz do domínio)
+github_username: pepemesquita
+
+# Configurações do tema
+theme: meu-tema # Nome do diretório do seu tema Jekyll (se aplicável)
+
+# Configurações do blog
+permalink: /blog/:title # Estrutura de URL para os posts do blog
+paginate: 5 # Número de posts por página na listagem do blog
+
+# Configurações do Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Outras configurações
+plugins:
+  - jekyll
+  # Outros plugins que você possa querer usar
