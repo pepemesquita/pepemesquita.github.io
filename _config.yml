@@ -1,7 +1,7 @@
 # Configurações do site
 title: </> Pedro
-description: Olá, me chamo Pedro, sou desenvoledor de software e tenho 21 anos, nesse site compartilho ideias, projetos e minhas opiniões.
-url: http://127.0.0.1:4000/ # URL do seu site
+description: Olá, me chamo Pedro, sou desenvolvedor de software e tenho 21 anos, nesse site compartilho ideias, projetos e minhas opiniões.
+url: https://pepemesquita.github.io/ # URL do seu site
 baseurl: "/" # Base URL do seu site (deixe como "/" se estiver na raiz do domínio)
 
 # Configurações do tema
