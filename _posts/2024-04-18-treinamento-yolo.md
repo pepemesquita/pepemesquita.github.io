@@ -10,7 +10,7 @@ tags:
 - Visão Computacional
 ---
 
-Sempre vê o pessoal da IA falando sobre treinamento isso, dataset aquilo e ficava perdido sem saber do que se tratava? Relaxa, é basicamente assim que eu me sentia antes de entrar na área de visão computacional e aprendizado de máquina, mas tive que aprender na famosa metodologia DOSJ (Dê O Seu Jeito), nessa idas e vindas me aventurando pelos stackoverflow da vida e alguns cursinhos introdutórios do youtube que eu encontrei o YOLO (You Only Look Once), que é um dos algoritmos mais populares para detecção de objetos em tempo real!
+Sempre vê o pessoal da IA falando sobre treinamento isso, dataset aquilo e fica perdido sem saber do que se trata? Relaxa, é basicamente assim que eu me sentia antes de entrar na área de visão computacional e aprendizado de máquina, mas tive que aprender na famosa metodologia DOSJ (Dê O Seu Jeito), nessa idas e vindas me aventurando pelos stackoverflows da vida e alguns cursinhos introdutórios do youtube que eu encontrei o YOLO (You Only Look Once), que é um dos modelos mais populares para detecção de objetos!
 
   
 
