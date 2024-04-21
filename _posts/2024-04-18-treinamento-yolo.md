@@ -10,7 +10,7 @@ tags:
 - Visão Computacional
 ---
 
-Sempre vê o pessoal da IA falando sobre treinamento isso, dataset aquilo e fica perdido sem saber do que se trata? Relaxa, é basicamente assim que eu me senti antes de entrar na área de visão computacional e aprendizado de máquina, mas tive que aprender na famosa metodologia DOSJ (Dê O Seu Jeito). Nessas idas e vindas me aventurando pelos stackoverflows da vida e alguns cursinhos introdutórios do youtube que eu encontrei o YOLO (You Only Look Once), que é um dos modelos mais populares para detecção de objetos!
+Sempre vê o pessoal da IA falando sobre treinamento isso, dataset aquilo e fica perdido sem saber do que se trata? Relaxa, era basicamente assim que eu me sentia antes de entrar na área de visão computacional e aprendizado de máquina, mas tive que aprender na famosa metodologia DOSJ (Dê O Seu Jeito). Nessas idas e vindas me aventurando pelos stackoverflows da vida e alguns cursinhos introdutórios do youtube que eu encontrei o YOLO (You Only Look Once), que é um dos modelos mais populares para detecção de objetos!
 
   
 
@@ -28,7 +28,7 @@ Sempre vê o pessoal da IA falando sobre treinamento isso, dataset aquilo e fica
 pip install ultralytics
 ```
 
-### 1. Preparação de dados:
+### Preparação de dados:
 
 a) Acesse [roboflow.com](http://roboflow.com/)  ou o [darwin.com](https://darwin.v7labs.com/), crie uma conta e um espaço de trabalho;
 
