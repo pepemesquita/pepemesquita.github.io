@@ -2,14 +2,14 @@
     {
       "name": "Forma Palavras",
       "link": "https://github.com/pepemesquita/forma-palavras",
-      "image": "https://private-user-images.githubusercontent.com/81587883/357552410-4fea9623-2c8e-4f20-972f-c5716fabe403.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM5MzU5NjIsIm5iZiI6MTcyMzkzNTY2MiwicGF0aCI6Ii84MTU4Nzg4My8zNTc1NTI0MTAtNGZlYTk2MjMtMmM4ZS00ZjIwLTk3MmYtYzU3MTZmYWJlNDAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE3VDIzMDEwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM5Zjg1YTA3MjU1MjYxZWQ5NWMwZDhjMmJiMTg3Zjk5NmFhMmQzMDdlNmZhMTFkNmJhNTEzZjkyYjlhM2MyYzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.b1QolS5-6_6HMRfrl6vYcbrVod2bd1CtabGEjk3sVus",
+      "image": "/assets/images/forma.png",
       "description": "Este projeto tem finalidade educacional e médica, fornecendo dados e informações relevantes para o pré-diagnóstico de crianças com Transtorno do Espectro Autista (TEA). Implementado com React, TypeScript, Node.js e Expo. As telas e protótipos foram criados no Figma e o sistema também permite que um especialista monitore o comportamento das crianças durante a atividade, gerando relatórios pós-atividade.",
       "tags": ["React", "TypeScript", "Figma"]
     },
     {
       "name": "Dogs Nose Detection",
       "link": "https://github.com/pepemesquita/Dogs_Nose_Detection",
-      "image": "https://private-user-images.githubusercontent.com/81587883/348568745-319db805-c043-45a6-98f5-e1959eb3e7d2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM5MzU3ODAsIm5iZiI6MTcyMzkzNTQ4MCwicGF0aCI6Ii84MTU4Nzg4My8zNDg1Njg3NDUtMzE5ZGI4MDUtYzA0My00NWE2LTk4ZjUtZTE5NTllYjNlN2QyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODE3VDIyNTgwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIwMTY1Y2VhNDk1ZWNiOTYwNDU0ZjViNmU3YTNiNTBlOTJjNWE1ODY1MjZiZDIwZWEwMDgxODAyMzQzNTY2NDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Wv6iYV1efRtGBRS-ncvzM2-cV3X3-pMMvEha156u-1o",
+      "image": "assets/images/dogs.png",
       "description": "Este projeto se concentra no desenvolvimento de um modelo para detectar narizes de cães usando a estrutura de detecção de objetos YOLOv8. O objetivo é criar um sistema de detecção preciso e confiável que possa ser usado para fins de pesquisa científica no futuro.",
       "tags": ["Python", "Yolo", "AI"]
     },
