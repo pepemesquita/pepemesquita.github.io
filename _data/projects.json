@@ -1,5 +1,12 @@
 [
     {
+    "name": "OrsAI",
+    "link": "https://orsai.digital/",
+    "image": "/assets/images/orsai.jpg",
+    "description": "Desenvolvimento de aplicativo utilizando React.js e elementos de Next.js no front-end, também rotas e integração backend com Node.js, PostgreSQL, Serverless e AWS Lambda",
+     "tags": ["React.js", "Next.js", "Figma"]
+    },
+    {
       "name": "Forma Palavras",
       "link": "https://github.com/pepemesquita/forma-palavras",
       "image": "/assets/images/forma.png",
