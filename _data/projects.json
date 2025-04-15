@@ -21,13 +21,6 @@
       "tags": ["Python", "Yolo", "AI"]
     },
     {
-      "name": "Alura Plus",
-      "link": "https://alura-plus-taupe-six.vercel.app/",
-      "image": "https://camo.githubusercontent.com/a42a56ac3142e25e548f7ee2469cafb1bb5dbe4ff0d899587e24957e57eacb0e/68747470733a2f2f696d6775722e636f6d2f6e4b5566374d4b2e706e67",
-      "description": "Um projeto bem simples desenvolvido em HTML e CSS para promover o Alura Plus e o Alura Língua como Combo Plus. A página é composta por diversas seções, cada uma destacando os diferenciais da plataforma Alura.",
-      "tags": ["HTML", "CSS"]
-    },
-    {
       "name": "Portfolio V1",
       "link": "https://portfolio-blush-eight-86.vercel.app/",
       "image": "assets/images/portfolio.png",
