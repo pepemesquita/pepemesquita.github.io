@@ -7,9 +7,23 @@
      "tags": ["React.js", "Next.js", "Figma"]
     },
     {
+      "name": "Nexedia",
+      "link": "https://nexedia.com.br/",
+      "image": "/assets/images/nexedia.jpeg",
+      "description": "Este projeto é fruto de uma startup focada em visão computacional e IA aplicada na áea de odontologia. Venho trabalhando no desenvolvimento de um sistema web integrado ao site; A automação de laudos gerados solicitados via whatsapp; A criação e aprimoramento de um agente inteligente utilizando n8n e por fim na atualização do design da página.",
+      "tags": ["React", "n8n", "Figma"]
+    },
+    {
+      "name": "Farmine Land",
+      "link": "https://farmine.land/home",
+      "image": "/assets/images/forma.jpeg",
+      "description": "Nesse projeto trabalhei o back-end com C++, Lua, XML com integração para Web3, sendo responsável por auxiliar na parte criativa do jogo.",
+      "tags": ["Lua", "C++", "Content Creative"]
+    },
+    {
       "name": "Forma Palavras",
       "link": "https://github.com/pepemesquita/forma-palavras",
-      "image": "/assets/images/forma.png",
+      "image": "/assets/images/forma.jpeg",
       "description": "Este projeto tem finalidade educacional e médica, fornecendo dados e informações relevantes para o pré-diagnóstico de crianças com Transtorno do Espectro Autista (TEA). Implementado com React, TypeScript, Node.js e Expo. As telas e protótipos foram criados no Figma e o sistema também permite que um especialista monitore o comportamento das crianças durante a atividade, gerando relatórios pós-atividade.",
       "tags": ["React", "TypeScript", "Figma"]
     },
@@ -21,6 +35,13 @@
       "tags": ["Python", "Yolo", "AI"]
     },
     {
+      "name": "Dubinhas",
+      "link": "https://www.instagram.com/p/C26l4yquuST/",
+      "image": "/assets/images/Dubinhas.jpeg",
+      "description": "Nesse projeto desenvolvi um aplicativo auxiliar para professores e alunos com deficiência auditiva se comunicarem e interagirem em suas tarefas diárias. Tecnologia utilizadas: React, TypeScript, Node.js e Expo para criar interfaces e componentes de aplicativos.",
+      "tags": ["React", "TypeScript", "Figma"]
+    },
+    {
       "name": "Teeth Detection and Segmentation",
       "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation",
       "image": "assets/images/tcc.jpeg",
@@ -28,11 +49,11 @@
       "tags": ["Python", "Yolo", "AI"]
     },
     {
-      "name": "Portfolio V1",
-      "link": "https://portfolio-blush-eight-86.vercel.app/",
-      "image": "assets/images/portfolio.png",
-      "description": "Meu primeiro portfolio, feito mais como um teste e conhecimento dos conceitos de HTML e CSS, responsividade também.",
-      "tags": ["HTML", "CSS"]
+      "name": "Apollum",
+      "link": "",
+      "image": "/assets/images/apollum.jpeg",
+      "description": "Este projeto é estudo de caso feito para o evento Startup Weekend da UFPEL. A ideia era criar um produto do zero, fazer um estudo, gerar pesquisa e ver a possibilidade de venda. No caso do meu grupo criamos o Apollum, um reprodutor musical com diversas personalizações. Fui responsável pelo desenvolvimento do protótipo doproduto e UX/UI",
+      "tags": ["UX/UI", "Figma"]
     },
     {
       "name": "Universidade UNES",
@@ -82,13 +103,6 @@
       "image": "https://img.itch.zone/aW1hZ2UvMjIwOTU2MC8xMzA2NjY4Ny5wbmc=/original/Wryvn1.png",
       "description": "Um RPG 2D feito como projeto final quando eu estava estudando os conceitos de Programação Orientada a Objetos durante minha graduação.",
       "tags": ["Java"]
-    },
-    {
-      "name": "Calculadora MIPS",
-      "link": "https://github.com/pepemesquita/AOC-1",
-      "image": "https://escolaeducacao.com.br/wp-content/uploads/2020/02/como-calcular-porcentagem-na-calculadora.png",
-      "description": "Desenvolvi uma calculadora baseada na arquitetura MIPS, utilizando uma linguagem de baixo nível, o Assembly.",
-      "tags": ["Assembly"]
     },
     {
       "name": "Blackjack",
