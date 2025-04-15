@@ -2,7 +2,7 @@
     {
     "name": "OrsAI",
     "link": "https://orsai.digital/",
-    "image": "/assets/images/orsai.jpg",
+    "image": "/assets/images/orsai.jpeg",
     "description": "Desenvolvimento de aplicativo utilizando React.js e elementos de Next.js no front-end, também rotas e integração backend com Node.js, PostgreSQL, Serverless e AWS Lambda",
      "tags": ["React.js", "Next.js", "Figma"]
     },
@@ -16,7 +16,7 @@
     {
       "name": "Farmine Land",
       "link": "https://farmine.land/home",
-      "image": "/assets/images/forma.jpeg",
+      "image": "/assets/images/Farmine.jpeg",
       "description": "Nesse projeto trabalhei o back-end com C++, Lua, XML com integração para Web3, sendo responsável por auxiliar na parte criativa do jogo.",
       "tags": ["Lua", "C++", "Content Creative"]
     },
