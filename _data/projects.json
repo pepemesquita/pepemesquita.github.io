@@ -22,7 +22,7 @@
   },
   {
     "name": "Primeira",
-    "link": "https://www.preimeiramesa.com.br/",
+    "link": "https://site.primeiramesa.com.br",
     "image": "/assets/images/primeira.png",
     "description": "Atuo como desenvolvedor com foco em automações e fluxos inteligentes, sendo responsável por mapear problemas recorrentes no aplicativo, como falhas em reservas, pagamentos, uso do app e suporte ao usuário. Meu trabalho tem como objetivo reduzir custos operacionais e melhorar a experiência do cliente através da implementação de soluções escaláveis.",
     "tags": ["React.js", "n8n", "Python", "PHP"]
