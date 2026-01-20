@@ -1,0 +1,7 @@
+# Project intelligence (Cursor)
+
+- Prefer **absolute paths** in tool calls when possible.
+- This repo is a **static site** with Liquid templates (`_includes/`, `_layouts/`) and data in `_data/`.
+- Main CSS is a **pre-built bundle** (`assets/css/index.*.css`) referenced by `_includes/head.html`.
+- For small styling tweaks without a rebuild, add overrides to `assets/css/custom.css` and load it after the main CSS.
+

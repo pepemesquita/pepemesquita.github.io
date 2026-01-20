@@ -14,13 +14,13 @@ title: Projetos | Pedro
     <ul class="grid-list justify-items-center pl-0">
         {% for project in site.data.projects %}
         <li class="list-none p-0">
-            <article class="max-w-sm overflow-hidden shadow-xl bg-gray6 y-6 hover:scale-105 rounded-xl transition-transform ease-in-out duration-500">
-                <a href="{{ project.link }}" class="no-underline">
-                    <img class="w-full m-0 mb-1 rounded-t-xl" src="{{ project.image }}" alt="{{ project.name }}">
-                    <section class="p-5">
+            <article class="project-card w-full max-w-sm overflow-hidden shadow-xl bg-gray6 my-6 hover:scale-105 rounded-xl transition-transform ease-in-out duration-500">
+                <a href="{{ project.link }}" class="project-card__link no-underline">
+                    <img class="project-card__img w-full m-0 mb-1 rounded-t-xl" src="{{ project.image }}" alt="{{ project.name }}">
+                    <section class="project-card__content p-5">
                         <h5 align="center">{{ project.name }}</h5>
-                        <p class="text-gray3 min-h-[100px]" align="justify">{{ project.description }}</p>
-                        <span class="tags-container">
+                        <p class="project-card__desc text-gray3 min-h-[100px]" align="justify">{{ project.description }}</p>
+                        <span class="project-card__tags tags-container">
                             {% for tag in project.tags %}
                             <span class="tag">#{{ tag }}</span>
                             {% endfor %}
