@@ -1,115 +1,149 @@
 [
-    {
+  {
+    "name": "Quires",
+    "link": "https://site.quires.com.br/",
+    "image": "/assets/images/quires.png",
+    "description": "Foco na identificação de gargalos operacionais e automação utilizando IA. Desenvolvo agentes para imobiliárias que qualificam leads, realizam buscas em bancos de dados e integram ao CRM, além de criar apps mobile com React Native.",
+    "tags": ["AI", "React Native", "n8n", "Python"]
+  },
+  {
+    "name": "Espaço Church",
+    "link": "https://espacochurch.org/",
+    "image": "/assets/images/espaco.jpg",
+    "description": "Desenvolvimento full-stack de um site institucional utilizando React.js e Node.js. Fui responsável por todo o ciclo de vida do software, desde a idealização e concepção de design até o lançamento final do projeto.",
+    "tags": ["React.js", "Node.js", "PostgreSQL"]
+  },
+  {
+    "name": "BC Energia",
+    "link": "https://grupobcenergia.com.br/",
+    "image": "/assets/images/bcenergia.png",
+    "description": "Desenvolvimento de um fluxo avançado de automação focado na busca e scraping de dados e contas de clientes. O sistema estrutura essas informações para otimizar as estratégias de marketing e anúncios (ADS) da companhia.",
+    "tags": ["Python", "n8n", "APIs"]
+  },
+  {
+    "name": "Primeira",
+    "link": "https://www.preimeiramesa.com.br/",
+    "image": "/assets/images/primeira.jpg",
+    "description": "Atuo como desenvolvedor com foco em automações e fluxos inteligentes, sendo responsável por mapear problemas recorrentes no aplicativo, como falhas em reservas, pagamentos, uso do app e suporte ao usuário. Meu trabalho tem como objetivo reduzir custos operacionais e melhorar a experiência do cliente através da implementação de soluções escaláveis.",
+    "tags": ["React.js", "n8n", "Python", "PHP"]
+  },
+  {
+    "name": "Euvatar",
+    "link": "https://www.euvatar.com.br/",
+    "image": "/assets/images/euvatar.png",
+    "description": "Atuei como desenvolvedor estagiário full stack, com foco em automações, integração de IAs proprietárias e criação de interfaces imersivas. Participo do desenvolvimento completo de soluções digitais, desde o design até a implementação de lógica backend.",
+    "tags": ["React.js", "Next.js", "n8n", "Python"]
+  },
+  {
     "name": "OrsAI",
     "link": "https://orsai.digital/",
     "image": "/assets/images/orsai.jpeg",
     "description": "Desenvolvimento de aplicativo utilizando React.js e elementos de Next.js no front-end, também rotas e integração backend com Node.js, PostgreSQL, Serverless e AWS Lambda",
-     "tags": ["React.js", "Next.js", "Figma"]
-    },
-    {
-      "name": "Nexedia",
-      "link": "https://nexedia.com.br/",
-      "image": "/assets/images/nexedia.jpeg",
-      "description": "Este projeto é fruto de uma startup focada em visão computacional e IA aplicada na áea de odontologia. Venho trabalhando no desenvolvimento de um sistema web integrado ao site; A automação de laudos gerados solicitados via whatsapp; A criação e aprimoramento de um agente inteligente utilizando n8n e por fim na atualização do design da página.",
-      "tags": ["React", "n8n", "Figma"]
-    },
-    {
-      "name": "Farmine Land",
-      "link": "https://farmine.land/home",
-      "image": "/assets/images/Farmine.jpeg",
-      "description": "Nesse projeto trabalhei o back-end com C++, Lua, XML com integração para Web3, sendo responsável por auxiliar na parte criativa do jogo.",
-      "tags": ["Lua", "C++", "Content Creative"]
-    },
-    {
-      "name": "Forma Palavras",
-      "link": "https://github.com/pepemesquita/forma-palavras",
-      "image": "/assets/images/forma.jpeg",
-      "description": "Este projeto tem finalidade educacional e médica, fornecendo dados e informações relevantes para o pré-diagnóstico de crianças com Transtorno do Espectro Autista (TEA). Implementado com React, TypeScript, Node.js e Expo. As telas e protótipos foram criados no Figma e o sistema também permite que um especialista monitore o comportamento das crianças durante a atividade, gerando relatórios pós-atividade.",
-      "tags": ["React", "TypeScript", "Figma"]
-    },
-    {
-      "name": "Dogs Nose Detection",
-      "link": "https://github.com/pepemesquita/Dogs_Nose_Detection",
-      "image": "assets/images/dogs.png",
-      "description": "Este projeto se concentra no desenvolvimento de um modelo para detectar narizes de cães usando a estrutura de detecção de objetos YOLOv8. O objetivo é criar um sistema de detecção preciso e confiável que possa ser usado para fins de pesquisa científica no futuro.",
-      "tags": ["Python", "Yolo", "AI"]
-    },
-    {
-      "name": "Dubinhas",
-      "link": "https://www.instagram.com/p/C26l4yquuST/",
-      "image": "/assets/images/Dubinhas.jpeg",
-      "description": "Nesse projeto desenvolvi um aplicativo auxiliar para professores e alunos com deficiência auditiva se comunicarem e interagirem em suas tarefas diárias. Tecnologia utilizadas: React, TypeScript, Node.js e Expo para criar interfaces e componentes de aplicativos.",
-      "tags": ["React", "TypeScript", "Figma"]
-    },
-    {
-      "name": "Teeth Detection and Segmentation",
-      "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation",
-      "image": "assets/images/tcc.jpeg",
-      "description": "Atualmente estou me dedicando à aplicação e treinamento da rede neural YOLOv8 para classificação e segmentação de dentes decíduos e permanentes em crianças de 4 a 12 anos, dataset criado em parceria com o curso de odontologia da UFRGS.",
-      "tags": ["Python", "Yolo", "AI"]
-    },
-    {
-      "name": "Apollum",
-      "link": "",
-      "image": "/assets/images/apollum.jpeg",
-      "description": "Este projeto é estudo de caso feito para o evento Startup Weekend da UFPEL. A ideia era criar um produto do zero, fazer um estudo, gerar pesquisa e ver a possibilidade de venda. No caso do meu grupo criamos o Apollum, um reprodutor musical com diversas personalizações. Fui responsável pelo desenvolvimento do protótipo doproduto e UX/UI",
-      "tags": ["UX/UI", "Figma"]
-    },
-    {
-      "name": "Universidade UNES",
-      "link": "https://unes-universidade-blue.vercel.app/",
-      "image": "assets/images/unes.png",
-      "description": "O objetivo do projeto é criar um site para uma universidade fictícia, contendo páginas para apresentação, informações sobre a universidade, e uma página de contato.",
-      "tags": ["HTML", "CSS"]
-    },
-    {
-      "name": "Monitoria PC",
-      "link": "https://github.com/pepemesquita/Monitoria",
-      "image": "https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg",
-      "description": "Contém uma série de exercícios desenvolvidos quando fui monitor da disciplina de Programação de Computadores. Os exercícios abrangem diversas áreas da programação, incluindo alocação dinâmica, ponteiros, funções e estruturas de dados.",
-      "tags": ["C"]
-    },
-    {
-      "name": "Sistema de Gerenciamento Hospitalar",
-      "link": "https://github.com/pepemesquita/Hospital_Pelotas",
-      "image": "assets/images/hospital.png",
-      "description": "Desenvolvi um sistema de gerenciamento hospitalar robusto, utilizando uma combinação de tecnologias de ponta, o sistema oferece funcionalidades abrangentes, adaptadas às necessidades de diferentes setores: médicos, farmácia, pacientes e etc.",
-      "tags": ["Javascript", "Node.js", "Express.js", "MySQL", "Apache"]
-    },
-    {
-      "name": "Face Recognition in Python",
-      "link": "https://github.com/pepemesquita/Face_Recognition",
-      "image": "https://miro.medium.com/v2/resize:fit:690/1*2VEXmDdBxs8yo7Le5KRTpw.png",
-      "description": "Este projeto é uma implementação de reconhecimento facial em Python para o grupo de robótica da universidade. Ele usa a biblioteca OpenCV, os frameworks Dlib, Haar Cascade e Media Pipe para capturar imagens de câmeras e realizar reconhecimento facial em tempo real.",
-      "tags": ["Python"]
-    },
-    {
-      "name": "Cache Simulator",
-      "link": "https://github.com/pepemesquita/Cache_simulator",
-      "image": "https://www.hardware.com.br/wp-content/uploads/static/wp/2023/05/22/cache.jpg",
-      "description": "Um simulador de cache completo, com a sofisticada política de substituição aleatória. Este simulador foi implementado para oferecer uma experiência envolvente e realista na gestão de memória cache. Os usuários podem explorar o impacto da política de substituição aleatória em diferentes cenários de acesso à memória.",
-      "tags": ["Python"]
-    },
-    {
-      "name": "AI Classification",
-      "link": "https://github.com/pepemesquita/h2ia",
-      "image": "https://www.researchgate.net/publication/360593200/figure/fig5/AS:11431281179452357@1691190157220/In-situ-PCA-for-Iris-dataset-classification-a-Example-images-of-classified-Iris.png",
-      "description": "Este projeto é uma implementação de dois treinamentos de classificação em Python para o grupo HUB de Inteligência Artificial da UFPEL. Usei algunas datasets públicos do kaggle e desenvolvi um treinamento usando uma árvore de decisão.",
-      "tags": ["Python", "Sklearn"]
-    },
-    {
-      "name": "Resgate a Princesa!",
-      "link": "https://github.com/pepemesquita/RPG_2D",
-      "image": "https://img.itch.zone/aW1hZ2UvMjIwOTU2MC8xMzA2NjY4Ny5wbmc=/original/Wryvn1.png",
-      "description": "Um RPG 2D feito como projeto final quando eu estava estudando os conceitos de Programação Orientada a Objetos durante minha graduação.",
-      "tags": ["Java"]
-    },
-    {
-      "name": "Blackjack",
-      "link": "https://github.com/pepemesquita/Blackjack-Game",
-      "image": "https://images.sigma.world/blackjack-card-counting-scaled-1.jpg",
-      "description": "No jogo Blackjack você deve atingir um número próximo de 21 ou chegar a 21, para vencer o jogo. Desenvolvido como trabalho final da disciplina de Programação de Computadores.",
-      "tags": ["C"]
-    }
-  ]
-  
+    "tags": ["React.js", "Next.js", "Figma"]
+  },
+  {
+    "name": "Nexedia",
+    "link": "https://nexedia.com.br/",
+    "image": "/assets/images/nexedia.jpeg",
+    "description": "Este projeto é fruto de uma startup focada em visão computacional e IA aplicada na áea de odontologia. Venho trabalhando no desenvolvimento de um sistema web integrado ao site; A automação de laudos gerados solicitados via whatsapp; A criação e aprimoramento de um agente inteligente utilizando n8n e por fim na atualização do design da página.",
+    "tags": ["React", "n8n", "Figma"]
+  },
+  {
+    "name": "Farmine Land",
+    "link": "https://farmine.land/home",
+    "image": "/assets/images/Farmine.jpeg",
+    "description": "Nesse projeto trabalhei o back-end com C++, Lua, XML com integração para Web3, sendo responsável por auxiliar na parte criativa do jogo.",
+    "tags": ["Lua", "C++", "Content Creative"]
+  },
+  {
+    "name": "Forma Palavras",
+    "link": "https://github.com/pepemesquita/forma-palavras",
+    "image": "/assets/images/forma.jpeg",
+    "description": "Este projeto tem finalidade educacional e médica, fornecendo dados e informações relevantes para o pré-diagnóstico de crianças com Transtorno do Espectro Autista (TEA). Implementado com React, TypeScript, Node.js e Expo. As telas e protótipos foram criados no Figma e o sistema também permite que um especialista monitore o comportamento das crianças durante a atividade, gerando relatórios pós-atividade.",
+    "tags": ["React", "TypeScript", "Figma"]
+  },
+  {
+    "name": "Dogs Nose Detection",
+    "link": "https://github.com/pepemesquita/Dogs_Nose_Detection",
+    "image": "assets/images/dogs.png",
+    "description": "Este projeto se concentra no desenvolvimento de um modelo para detectar narizes de cães usando a estrutura de detecção de objetos YOLOv8. O objetivo é criar um sistema de detecção preciso e confiável que possa ser usado para fins de pesquisa científica no futuro.",
+    "tags": ["Python", "Yolo", "AI"]
+  },
+  {
+    "name": "Dubinhas",
+    "link": "https://www.instagram.com/p/C26l4yquuST/",
+    "image": "/assets/images/Dubinhas.jpeg",
+    "description": "Nesse projeto desenvolvi um aplicativo auxiliar para professores e alunos com deficiência auditiva se comunicarem e interagirem em suas tarefas diárias. Tecnologia utilizadas: React, TypeScript, Node.js e Expo para criar interfaces e componentes de aplicativos.",
+    "tags": ["React", "TypeScript", "Figma"]
+  },
+  {
+    "name": "Teeth Detection and Segmentation",
+    "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation",
+    "image": "assets/images/tcc.jpeg",
+    "description": "Atualmente estou me dedicando à aplicação e treinamento da rede neural YOLOv8 para classificação e segmentação de dentes decíduos e permanentes em crianças de 4 a 12 anos, dataset criado em parceria com o curso de odontologia da UFRGS.",
+    "tags": ["Python", "Yolo", "AI"]
+  },
+  {
+    "name": "Apollum",
+    "link": "",
+    "image": "/assets/images/apollum.jpeg",
+    "description": "Este projeto é estudo de caso feito para o evento Startup Weekend da UFPEL. A ideia era criar um produto do zero, fazer um estudo, gerar pesquisa e ver a possibilidade de venda. No caso do meu grupo criamos o Apollum, um reprodutor musical com diversas personalizações. Fui responsável pelo desenvolvimento do protótipo doproduto e UX/UI",
+    "tags": ["UX/UI", "Figma"]
+  },
+  {
+    "name": "Universidade UNES",
+    "link": "https://unes-universidade-blue.vercel.app/",
+    "image": "assets/images/unes.png",
+    "description": "O objetivo do projeto é criar um site para uma universidade fictícia, contendo páginas para apresentação, informações sobre a universidade, e uma página de contato.",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Monitoria PC",
+    "link": "https://github.com/pepemesquita/Monitoria",
+    "image": "https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg",
+    "description": "Contém uma série de exercícios desenvolvidos quando fui monitor da disciplina de Programação de Computadores. Os exercícios abrangem diversas áreas da programação, incluindo alocação dinâmica, ponteiros, funções e estruturas de dados.",
+    "tags": ["C"]
+  },
+  {
+    "name": "Sistema de Gerenciamento Hospitalar",
+    "link": "https://github.com/pepemesquita/Hospital_Pelotas",
+    "image": "assets/images/hospital.png",
+    "description": "Desenvolvi um sistema de gerenciamento hospitalar robusto, utilizando uma combinação de tecnologias de ponta, o sistema oferece funcionalidades abrangentes, adaptadas às necessidades de diferentes setores: médicos, farmácia, pacientes e etc.",
+    "tags": ["Javascript", "Node.js", "Express.js", "MySQL", "Apache"]
+  },
+  {
+    "name": "Face Recognition in Python",
+    "link": "https://github.com/pepemesquita/Face_Recognition",
+    "image": "https://miro.medium.com/v2/resize:fit:690/1*2VEXmDdBxs8yo7Le5KRTpw.png",
+    "description": "Este projeto é uma implementação de reconhecimento facial em Python para o grupo de robótica da universidade. Ele usa a biblioteca OpenCV, os frameworks Dlib, Haar Cascade e Media Pipe para capturar imagens de câmeras e realizar reconhecimento facial em tempo real.",
+    "tags": ["Python"]
+  },
+  {
+    "name": "Cache Simulator",
+    "link": "https://github.com/pepemesquita/Cache_simulator",
+    "image": "https://www.hardware.com.br/wp-content/uploads/static/wp/2023/05/22/cache.jpg",
+    "description": "Um simulador de cache completo, com a sofisticada política de substituição aleatória. Este simulador foi implementado para oferecer uma experiência envolvente e realista na gestão de memória cache. Os usuários podem explorar o impacto da política de substituição aleatória em diferentes cenários de acesso à memória.",
+    "tags": ["Python"]
+  },
+  {
+    "name": "AI Classification",
+    "link": "https://github.com/pepemesquita/h2ia",
+    "image": "https://www.researchgate.net/publication/360593200/figure/fig5/AS:11431281179452357@1691190157220/In-situ-PCA-for-Iris-dataset-classification-a-Example-images-of-classified-Iris.png",
+    "description": "Este projeto é uma implementação de dois treinamentos de classificação em Python para o grupo HUB de Inteligência Artificial da UFPEL. Usei algunas datasets públicos do kaggle e desenvolvi um treinamento usando uma árvore de decisão.",
+    "tags": ["Python", "Sklearn"]
+  },
+  {
+    "name": "Resgate a Princesa!",
+    "link": "https://github.com/pepemesquita/RPG_2D",
+    "image": "https://img.itch.zone/aW1hZ2UvMjIwOTU2MC8xMzA2NjY4Ny5wbmc=/original/Wryvn1.png",
+    "description": "Um RPG 2D feito como projeto final quando eu estava estudando os conceitos de Programação Orientada a Objetos durante minha graduação.",
+    "tags": ["Java"]
+  },
+  {
+    "name": "Blackjack",
+    "link": "https://github.com/pepemesquita/Blackjack-Game",
+    "image": "https://images.sigma.world/blackjack-card-counting-scaled-1.jpg",
+    "description": "No jogo Blackjack você deve atingir um número próximo de 21 ou chegar a 21, para vencer o jogo. Desenvolvido como trabalho final da disciplina de Programação de Computadores.",
+    "tags": ["C"]
+  }
+]
