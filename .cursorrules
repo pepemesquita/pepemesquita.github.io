@@ -1,7 +1,13 @@
 # Project intelligence (Cursor)
 
 - Prefer **absolute paths** in tool calls when possible.
-- This repo is a **static site** with Liquid templates (`_includes/`, `_layouts/`) and data in `_data/`.
-- Main CSS is a **pre-built bundle** (`assets/css/index.*.css`) referenced by `_includes/head.html`.
-- For small styling tweaks without a rebuild, add overrides to `assets/css/custom.css` and load it after the main CSS.
-
+- This repo is a **static site** using Jekyll for GitHub Pages deployment.
+- Main pages (`index.html`, `project.html`) use `layout: null` — they are self-contained HTML.
+- Legacy pages (`about.html`) redirect to `/` via meta-refresh.
+- CSS lives in `assets/css/style.css` — dark futuristic theme with CSS variables.
+- JS lives in `assets/js/main.js` — custom cursor, typewriter, counters, scroll reveal, canvas particles, project filters.
+- Fonts: Syne (display), Inter (body), JetBrains Mono (code) — loaded via Google Fonts.
+- Color scheme: `#06060b` background, `#00d4ff` accent, `#7b61ff` secondary accent.
+- Images: `assets/images/logo.png` (brand), `assets/images/pedro-profile.png` (profile photo).
+- Projects are hardcoded in `project.html` (not using `_data/projects.json` anymore).
+- Blog still uses Jekyll layouts (`_layouts/post.html`).
