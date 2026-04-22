@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(0, 212, 255, ${p.alpha})`;
+        ctx.fillStyle = `rgba(0, 229, 160, ${p.alpha})`;
         ctx.fill();
 
         for (let j = i + 1; j < particles.length; j++) {
@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p2.x, p2.y);
-            ctx.strokeStyle = `rgba(0, 212, 255, ${0.06 * (1 - dist / 150)})`;
+            ctx.strokeStyle = `rgba(0, 229, 160, ${0.06 * (1 - dist / 150)})`;
             ctx.lineWidth = 0.5;
             ctx.stroke();
           }
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
           ctx.beginPath();
           ctx.moveTo(p.x, p.y);
           ctx.lineTo(mouse.x, mouse.y);
-          ctx.strokeStyle = `rgba(0, 212, 255, ${0.12 * (1 - mDist / 200)})`;
+          ctx.strokeStyle = `rgba(0, 229, 160, ${0.12 * (1 - mDist / 200)})`;
           ctx.lineWidth = 0.8;
           ctx.stroke();
         }

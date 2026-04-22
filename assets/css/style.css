@@ -16,23 +16,23 @@
   --text-primary: #e8e8f0;
   --text-secondary: #8888a0;
   --text-muted: #55556a;
-  --accent: #00d4ff;
-  --accent-dim: rgba(0, 212, 255, 0.15);
-  --accent-glow: rgba(0, 212, 255, 0.4);
-  --accent-secondary: #7b61ff;
-  --gradient-1: linear-gradient(135deg, #00d4ff, #7b61ff);
-  --gradient-2: linear-gradient(135deg, #00d4ff, #00ffa3);
-  --gradient-hero: radial-gradient(ellipse at 20% 50%, rgba(0, 212, 255, 0.08) 0%, transparent 50%),
-                   radial-gradient(ellipse at 80% 20%, rgba(123, 97, 255, 0.06) 0%, transparent 50%);
+  --accent: #00E5A0;
+  --accent-dim: rgba(0, 229, 160, 0.12);
+  --accent-glow: rgba(0, 229, 160, 0.35);
+  --accent-secondary: #FF4D4D;
+  --gradient-1: linear-gradient(135deg, #FF4D4D, #00E5A0);
+  --gradient-2: linear-gradient(135deg, #FF6B6B, #00E5A0);
+  --gradient-hero: radial-gradient(ellipse at 20% 50%, rgba(255, 77, 77, 0.06) 0%, transparent 50%),
+                   radial-gradient(ellipse at 80% 20%, rgba(0, 229, 160, 0.06) 0%, transparent 50%);
   --border-subtle: rgba(255, 255, 255, 0.06);
-  --border-accent: rgba(0, 212, 255, 0.2);
+  --border-accent: rgba(0, 229, 160, 0.2);
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 20px;
   --radius-xl: 28px;
   --shadow-card: 0 4px 30px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.15);
-  --shadow-glow-strong: 0 0 60px rgba(0, 212, 255, 0.25);
+  --shadow-glow: 0 0 30px rgba(0, 229, 160, 0.15);
+  --shadow-glow-strong: 0 0 60px rgba(0, 229, 160, 0.25);
   --font-display: 'Syne', sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
@@ -279,11 +279,11 @@ ul, ol {
   gap: 8px;
   padding: 6px 16px;
   border-radius: 100px;
-  background: rgba(0, 255, 163, 0.08);
-  border: 1px solid rgba(0, 255, 163, 0.2);
+  background: rgba(0, 229, 160, 0.08);
+  border: 1px solid rgba(0, 229, 160, 0.2);
   font-size: 0.8rem;
   font-weight: 500;
-  color: #00ffa3;
+  color: #00E5A0;
   margin-bottom: 28px;
   animation: float 3s ease-in-out infinite;
 }
@@ -291,7 +291,7 @@ ul, ol {
 .hero-badge .pulse-dot {
   width: 8px;
   height: 8px;
-  background: #00ffa3;
+  background: #00E5A0;
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
 }
@@ -499,7 +499,7 @@ ul, ol {
 .hero-orbit-dot:nth-child(2) {
   animation-delay: -4s;
   background: var(--accent-secondary);
-  box-shadow: 0 0 20px rgba(123, 97, 255, 0.4);
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.4);
 }
 
 @keyframes orbit {
