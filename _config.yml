@@ -8,9 +8,22 @@ github_username: pepemesquita
 # Configurações do tema
 theme: meu-tema # Nome do diretório do seu tema Jekyll (se aplicável)
 
+# Páginas de projeto (case / como foi feito)
+collections:
+  portfolio:
+    output: true
+    permalink: /project/:name/
+
 # Configurações do blog
 permalink: /blog/:title # Estrutura de URL para os posts do blog
 paginate: 5 # Número de posts por página na listagem do blog
+
+defaults:
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: portfolio-item
 
 # Configurações do Markdown
 markdown: kramdown

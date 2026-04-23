@@ -9,5 +9,7 @@
 - Fonts: Syne (display), Inter (body), JetBrains Mono (code) — loaded via Google Fonts.
 - Color scheme: `#06060b` background, `#00d4ff` accent, `#7b61ff` secondary accent.
 - Images: `assets/images/logo.png` (brand), `assets/images/pedro-profile.png` (profile photo).
-- Projects are hardcoded in `project.html` (not using `_data/projects.json` anymore).
+- Projects grid: `project.html` (cards link to `/project/<slug>/`).
+- Case pages: Jekyll collection `_portfolio/*.md` → URL `/project/:name/` (see `_config.yml` collections.portfolio). Layout `_layouts/portfolio-item.html`. Edit markdown in `_portfolio/` to expand “como foi feito”.
+- Legacy `_data/projects.json` may still exist for reference; the live grid is `project.html`.
 - Blog still uses Jekyll layouts (`_layouts/post.html`).

@@ -28,6 +28,13 @@
     "tags": ["React.js", "n8n", "Python", "PHP"]
   },
   {
+    "name": "Enderson Imports",
+    "link": "https://www.instagram.com/enderson.imports/",
+    "image": "/assets/images/enderson-imports.png",
+    "description": "Dois agentes de IA para qualificar leads na venda de iPhones e em planos mensais; n8n, Python, Supabase, API da Meta, Chatwoot, Slack e notificações em tempo real. Dashboard financeiro PF/PJ com agente secretária/gestor que registra gastos e receitas por conversa.",
+    "tags": ["n8n", "Python", "Supabase", "Chatwoot", "Meta API", "Slack"]
+  },
+  {
     "name": "Euvatar",
     "link": "https://www.euvatar.com.br/",
     "image": "/assets/images/euvatar.png",
