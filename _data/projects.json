@@ -7,11 +7,11 @@
     "tags": ["AI", "React Native", "n8n", "Python"]
   },
   {
-    "name": "Espaço Church",
+    "name": "Espaço Church Pelotas",
     "link": "https://espacochurch.org/",
     "image": "/assets/images/espaco.jpg",
-    "description": "Desenvolvimento full-stack de um site institucional utilizando React.js e Node.js. Fui responsável por todo o ciclo de vida do software, desde a idealização e concepção de design até o lançamento final do projeto.",
-    "tags": ["React.js", "Node.js", "PostgreSQL"]
+    "description": "Site institucional e sistema de gestão interna: auth JWT e roles, cursos com gamificação, eventos e presença, Wi-Fi captive UniFi, reconhecimento facial (FastAPI), liderança e admin. Vite, React, TypeScript, Express, Prisma, PostgreSQL, Docker.",
+    "tags": ["React", "TypeScript", "Node.js", "Prisma", "PostgreSQL", "FastAPI", "Docker"]
   },
   {
     "name": "BC Energia",
