@@ -1,7 +1,7 @@
 ---
 title: OrsAI
 image: /assets/images/orsai.jpeg
-external_url: https://orsai.digital/
+external_url: https://www.instagram.com/orsai.digital/
 tags:
   - React.js
   - Next.js
