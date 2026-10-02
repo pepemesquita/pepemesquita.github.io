@@ -1,0 +1,122 @@
+{
+  "evolua": {
+    "title": "Evolua · Sistema Ailos",
+    "excerpt": "Manual process automation with RPA and Playwright, workflow development and AI agent initiatives at the cooperative. One process went from around 1 hour to 2 minutes.",
+    "body": "## Current work\n\nAt **Cooperativa Evolua, part of Sistema Ailos**, I work on automating manual processes and contribute to AI agent initiatives.\n\n## Approach\n\n- Map operational routines and identify repetitive steps.\n- Use **RPA and Playwright** to automate interactions previously performed manually.\n- Build workflows that reduce time spent on operations.\n- Contribute to **AI agent** initiatives.\n\n## A practical result\n\nOne process that took approximately **1 hour** now takes **2 minutes** with automation. This example describes the time saved in a specific routine, freeing the team for other activities."
+  },
+  "espacochurch-jobs": {
+    "title": "Espaço Church Jobs",
+    "excerpt": "A professional directory connecting talent, services and opportunities in the community. Profiles, category search, authentication and contact through WhatsApp or LinkedIn.",
+    "body": "## Context\n\nAn independent platform connecting **professionals, services and opportunities** within the Espaço Church Pelotas community. This is a separate project from the church’s institutional website and management system.\n\n## Features\n\n- A directory with search and professional category filters.\n- Profiles with biographies, skills and contact links.\n- Member registration and authentication with **Supabase**.\n- Direct contact through WhatsApp or LinkedIn.\n\n## Development\n\n**Next.js, React and TypeScript** on the frontend, **Supabase** for the database and authentication, and **CSS Modules** for styling.\n\n[View documentation and code on GitHub](https://github.com/pepemesquita/espacochurch-jobs)."
+  },
+  "farrapos-field": {
+    "title": "Farrapos Field",
+    "excerpt": "Monthly payment management for a flag football field: fundraising progress, members, payment status and a Pix key in a mobile-first interface.",
+    "body": "## Context\n\nA system for organizing **monthly payments for a flag football field**, bringing contributions and members together in a mobile-first interface.\n\n## Features\n\n- A fundraising dashboard showing progress towards a monthly target.\n- Month navigation and payment charge generation.\n- Member listings and paid/pending payment tracking.\n- A Pix key with a copy button.\n- Member registration and deactivation.\n\n## Development\n\n**Next.js, React and TypeScript**, with **SCSS Modules** for styling and **Supabase/PostgreSQL** for data.\n\n[View documentation and code on GitHub](https://github.com/pepemesquita/farrapos-field)."
+  },
+  "unireserva": {
+    "title": "UniReserva",
+    "excerpt": "An academic room and laboratory booking system, developed with a team at UFPel. Next.js frontend and a Python server with TLS communication.",
+    "body": "## Context\n\nAn academic project for the **Computer Networks course at UFPel**, developed with teammates **Rafael and Mauro**.\n\n## Features\n\nView available rooms and laboratories, book time slots and browse reservations by date.\n\n## Development\n\n- **Next.js, React and TypeScript** on the frontend.\n- A **Python server with TLS** for the booking API.\n- Reservation persistence in a **JSON** file.\n\nThe project applies client-server communication, networking and web integration concepts.\n\n[View documentation and code on GitHub](https://github.com/pepemesquita/Unireserva)."
+  },
+  "nexedia": {
+    "title": "Nexedia",
+    "excerpt": "Computer vision and AI for dentistry. An integrated web platform, report workflows through WhatsApp, an n8n agent and a platform redesign.",
+    "body": "## Context\n\nNexedia is a computer vision and AI product for dentistry. The challenge was to combine the **web experience**, **report automation** requested through WhatsApp and **intelligent agents** into a reliable workflow for clinics and patients.\n\n## How it was built\n\n1. **React frontend** — a web interface integrated with the website, ongoing UX improvements and a Figma redesign for clear reports and follow-up screens.\n2. **Report automation through WhatsApp** — workflows to receive requests, normalize data and route it through processing and delivery, reducing manual work.\n3. **n8n agent** — reusable workflows for integrations, validations and notifications, with Python and additional APIs where custom logic was needed.\n4. **Computer vision** — integration with the product’s dental image analysis capabilities.\n\n## Challenges\n\nBalancing response time, report quality and data governance required iteration with the team and adjustments to n8n workflows and the API.\n\n## Outcome\n\nA connected website, automation system and agent aligned with clinic operations, with room for additional examination types and integrations."
+  },
+  "teeth-detection": {
+    "title": "Teeth Detection & Segmentation",
+    "excerpt": "YOLOv8 research for detecting and segmenting deciduous and permanent teeth in children aged 4–12, with a dataset developed alongside UFRGS dentistry.",
+    "body": "## Context\n\nAn academic **tooth detection and segmentation** project covering deciduous and permanent teeth in children aged 4–12, with a dataset developed alongside **UFRGS Dentistry**.\n\n## How it was built\n\n- **Ultralytics YOLOv8** for training and inference, with annotations and a data pipeline adapted to dental images.\n- **Python** for preprocessing, training, metric evaluation and result export.\n- An iterative cycle of data preparation, training, validation and parameter and augmentation adjustments for the graduation project.\n\n## Challenges\n\nImage variability, class imbalance and coordination with specialists to maintain consistent labels.\n\n## Outcome\n\nApplied healthcare computer vision experience, with code and experiments documented in a public repository."
+  },
+  "quires": {
+    "title": "Quires",
+    "excerpt": "AI agents for real estate: lead qualification, database queries and CRM integration. Internal and client automations, plus React Native mobile development.",
+    "body": "## Context\n\nQuires works on **automation and AI** for real estate. My full stack work covered **agents**, internal and client **n8n workflows**, and a **mobile application**.\n\n## How it was built\n\n1. **AI agents** — lead qualification, database queries and CRM integrations reflecting business rules.\n2. **n8n** — internal and customer-facing automations with webhooks, APIs, schedules and observable error handling.\n3. **React Native and Expo** — app screens, navigation, builds and rapid iteration with the team.\n4. **Python** — supporting scripts and services for logic beyond practical visual workflows.\n\n## Challenges\n\nOrchestrating multiple integrations while maintaining idempotency, logs and retries without overloading support.\n\n## Outcome\n\nMore predictable sales and operational workflows, with a mobile app connected to the same data sources."
+  },
+  "primeira-mesa": {
+    "title": "Primeira Mesa",
+    "excerpt": "Automation and intelligent workflows for a restaurant app. Process mapping and integrations supporting reservations, payments and customer service.",
+    "body": "## Context\n\nPrimeira Mesa is a restaurant app. My experience includes **automation**, **support** and resolving recurring issues with reservations, payments and app usage.\n\n## How it was built\n\n- Map failures and operational bottlenecks with the team.\n- Use **n8n workflows** to integrate systems, notify responsible teams and reduce manual steps.\n- Work with **React** in the existing web ecosystem and **Python/PHP** for legacy integrations.\n- Monitor and refine workflows to reduce support costs and repeated work.\n\n## Challenges\n\nIntegrating heterogeneous systems and keeping failures traceable in production.\n\n## Outcome\n\nA more stable operation and fewer repetitive support tickets for the internal team."
+  },
+  "enderson-imports": {
+    "title": "Enderson Imports",
+    "excerpt": "Two AI agents for lead qualification, plus a personal and business finance dashboard. n8n, Python, Supabase, Meta API, Chatwoot and Slack integrations.",
+    "body": "## Context\n\nTwo main areas for **Enderson Imports**: **lead acquisition and qualification** for iPhones and monthly plans, and a **personal and business finance dashboard** consolidating transactions across the client’s companies.\n\n## Sales agents\n\nTwo agents have distinct roles: one handles **iPhone sales** and the other **monthly plans**. Both qualify and route conversations to the human team.\n\n**Stack and integrations:**\n\n- **n8n** — workflow orchestration, webhooks and branching based on lead intent.\n- **Python** — business rules, data normalization and custom logic.\n- **Supabase** — persistence for leads, conversation history and state.\n- **Meta API** — official messaging channel.\n- **Chatwoot** — a shared inbox with queues, labels and pipeline visibility.\n- **Slack** — real-time sales team alerts.\n- **Real-time notifications** — triggers to surface opportunities outside peak hours.\n\nThe design prioritizes traceability and clear handoff to a human.\n\n## Finance dashboard and assistant\n\nA dashboard brings together personal and business finances. A conversational agent acts as an assistant: the user describes expenses and income; the agent classifies and records transactions and keeps the dashboard updated, reducing parallel spreadsheets and missed entries.\n\n## Challenges\n\nKeeping sales and finance permissions separate, minimizing sensitive data in messages and maintaining consistency between the agent’s interpretation and saved records through confirmations and logs.\n\n## Outcome\n\nMore predictable commercial operations on WhatsApp and Instagram, and centralized financial visibility."
+  },
+  "espaco-church": {
+    "title": "Espaço Church Pelotas",
+    "excerpt": "An institutional website and an internal platform for members, courses, events, attendance and administration, with Wi-Fi integration and optional facial recognition.",
+    "body": "A **full stack** platform combining the **public website** of Espaço Church Pelotas with an **internal system** for members, leaders and administrative staff. I developed the project end to end.\n\n## What the project covers\n\n### Visitors and the community\n\nInstitutional pages covering history, mission, location and ministries; an event calendar, fellowship groups, first-visit and faith content, Pix contributions, volunteering, a contact form and search visibility.\n\n### Members\n\nRegistration approved by the church office, secure login and access levels based on each person’s role. A **course area** with videos, materials, progress tracking and **achievements** that encourage participation.\n\n### Events and attendance\n\nManagement of events, including recurring events, member attendance and visitor registration, a real-time participation view and a unified calendar.\n\n### Church Wi-Fi\n\nPeople joining the network can identify themselves through a simple flow that can **automatically record attendance** during services and events, with a visitor flow available at those times.\n\n### Facial recognition (optional in the workflow)\n\nMembers can update their photos with explicit consent under Brazil’s LGPD. **AI** supports arrival identification through cameras and attendance and security workflows, with human review when someone is not identified.\n\n### Leadership and ministries\n\nTools for groups and ministries: meetings, attendance, members, visitors, schedules and reports, including specific workflows for the **Kids Ministry**.\n\n### Administration\n\nAn overview dashboard; management of people, courses, events and contact messages; batch data import; attendance and participation reports; and basic operational security controls.\n\n---\n\nA **private** project for Espaço Church Pelotas."
+  },
+  "bc-energia": {
+    "title": "BC Energia",
+    "excerpt": "Automated collection and structuring of customer data to support marketing and advertising strategies, using Python, n8n and APIs.",
+    "body": "## Context\n\nBC Energia needed to **structure customer and account data** for marketing strategies and advertising campaigns.\n\n## How it was built\n\n- **Python** for scraping, error handling and data normalization.\n- **n8n** to orchestrate steps, schedules and delivery to spreadsheets or internal APIs.\n- Third-party **API integrations** aligned with business rules.\n\n## Challenges\n\nHandling layout changes on source websites and rate limits while keeping daily workflows running.\n\n## Outcome\n\nMore reliable data for the growth team, with less manual collection work."
+  },
+  "orsai": {
+    "title": "OrsAI",
+    "excerpt": "Full stack development with React.js, Next.js, Node.js, PostgreSQL, Serverless and AWS Lambda.",
+    "body": "## Context\n\nA **full stack application** for an OrsAI digital product, combining a rich frontend experience and resilient backend APIs.\n\n## How it was built\n\n- **React.js and Next.js** for routes, rendering and frontend performance.\n- **Node.js** REST endpoints and **PostgreSQL** integration.\n- **AWS Lambda and Serverless** for asynchronous tasks, webhooks and usage-based infrastructure.\n\n## Challenges\n\nManaging cold starts, timeouts and observability across distributed services.\n\n## Outcome\n\nA scalable technical foundation for ongoing product development."
+  },
+  "euvatar": {
+    "title": "Euvatar",
+    "excerpt": "Full stack internship focused on automation, proprietary AI integrations and immersive interfaces.",
+    "body": "## Context\n\nMy **full stack development internship** at Euvatar focused on automation, proprietary AI integrations and immersive interfaces.\n\n## How it was built\n\n- **React and Next.js** for web workflows and reusable components.\n- **n8n** to connect integrations and reduce manual work between systems.\n- **Python** for supporting services and extensions.\n\n## Challenges\n\nMaintaining UX quality while backend services and automations grew in parallel.\n\n## Outcome\n\nOngoing feature delivery with less friction between design and implementation."
+  },
+  "dogs-nose-detection": {
+    "title": "Dogs Nose Detection",
+    "excerpt": "A YOLOv8 model for detecting dog noses in images, developed as a foundation for future scientific research.",
+    "body": "## Context\n\nApplied research on **dog nose detection with YOLOv8**, providing a basis for future scientific studies.\n\n## How it was built\n\n- Dataset assembly and annotations focused on the nose region.\n- Training with **Ultralytics YOLOv8** and metric evaluation, including mAP and recall.\n- **Python** for training and batch inference.\n\n## Challenges\n\nOcclusion, varying lighting and noisy backgrounds.\n\n## Outcome\n\nA reproducible pipeline and a foundation for future tracking or animal behavior research."
+  },
+  "farmine-land": {
+    "title": "Farmine Land",
+    "excerpt": "Game backend work with C++, Lua and XML, Web3 integration and contributions to gameplay design.",
+    "body": "## Context\n\nBackend work on the online game **Farmine Land**, including **Web3** integration.\n\n## How it was built\n\n- **C++ and Lua** for server logic, events and balancing.\n- **XML** in the project’s content and configuration pipelines.\n- Contributions to gameplay design in collaboration with the team.\n\n## Challenges\n\nBalancing server performance, the in-game economy and blockchain integrations.\n\n## Outcome\n\nMore predictable game services and support for the game’s continued evolution."
+  },
+  "forma-palavras": {
+    "title": "Forma Palavras",
+    "excerpt": "An educational word-building game using images, built with React Native, TypeScript and Expo. Activity records and reports support specialist observation.",
+    "body": "## Context\n\nA digital implementation of the physical **Forma Palavras** game, where children form words from images. The project has an educational purpose and supports specialist observation through activity records and reports.\n\n## How it was built\n\n- **React Native and TypeScript** for interfaces and components.\n- **Expo** for mobile and web execution.\n- Audio, navigation and report export features included in the project.\n- **Figma** for screen design and prototyping.\n\n## Goal\n\nSupport educational activities and observation by professionals, including work with children with autism. The app does not replace clinical assessment.\n\n[View code and instructions on GitHub](https://github.com/pepemesquita/Forma_Palavras)."
+  },
+  "dubinhas": {
+    "title": "Dubinhas",
+    "excerpt": "A React Native and TypeScript app that helps teachers and students with hearing disabilities communicate and collaborate at school.",
+    "body": "## Context\n\nAn app helping **teachers and students with hearing disabilities** communicate and organize school activities.\n\n## How it was built\n\n- **React Native and TypeScript** for UI components and workflows.\n- **Expo** for builds and quick iteration in school settings.\n- **Node.js** where synchronization and content services were needed.\n\n## Challenges\n\nPrioritizing accessibility through contrast, visual feedback and gestures alongside text.\n\n## Outcome\n\nA mobile project addressing a concrete need in inclusive education."
+  },
+  "face-recognition": {
+    "title": "Face Recognition",
+    "excerpt": "Real-time face recognition in Python for university robotics, using OpenCV, Dlib, Haar Cascade and MediaPipe.",
+    "body": "## Context\n\nA **Python** implementation for the university robotics group, using camera input and near-real-time **face recognition**.\n\n## How it was built\n\n- **OpenCV** for frame capture and preprocessing.\n- **Dlib**, **Haar Cascade** and **MediaPipe** for experiments with different performance requirements.\n- A modular pipeline allowing detectors to be changed without rewriting the application.\n\n## Challenges\n\nVariable lighting in competition environments and acceptable latency for robot control.\n\n## Outcome\n\nA working demonstration within the university’s **SSL robotics** ecosystem."
+  },
+  "hospital-system": {
+    "title": "Hospital Management System",
+    "excerpt": "An academic hospital management system for doctors, pharmacy, patients and administration. Node.js, Express and MySQL.",
+    "body": "## Context\n\nA **hospital management system** with modules for doctors, pharmacy, patients and administration.\n\n## How it was built\n\n- **JavaScript** on the frontend and **Node.js/Express** on the backend.\n- **MySQL** with a normalized relational model and profile-based permissions.\n- **Apache** in the academic deployment environment.\n\n## Challenges\n\nModeling clinical workflows with referential integrity and minimal data redundancy.\n\n## Outcome\n\nAn academic project demonstrating CRUD operations, authentication and separation of responsibilities."
+  },
+  "ai-classification": {
+    "title": "AI Classification",
+    "excerpt": "Decision-tree classification with public datasets for the UFPel Artificial Intelligence Hub, using Python and Scikit-learn.",
+    "body": "## Context\n\nA project for the **UFPel Artificial Intelligence Hub**, comparing classification approaches in **Python** using public datasets.\n\n## How it was built\n\n- **Scikit-learn**, decision trees and validation metrics.\n- Data preprocessing and basic feature engineering for each dataset.\n- Reproducible notebooks and scripts for group presentations.\n\n## Challenges\n\nAvoiding overfitting on small datasets and communicating results accurately.\n\n## Outcome\n\nAn educational foundation that other students can use to reproduce and compare algorithms."
+  },
+  "cache-simulator": {
+    "title": "Cache Simulator",
+    "excerpt": "An educational cache simulator with a random replacement policy for exploring memory management.",
+    "body": "## Context\n\nAn educational **cache memory simulator** with a **random replacement policy**, developed for a computer architecture course.\n\n## How it was built\n\n- **Python** to model sets, cache lines, hits and misses.\n- A simple interface for memory access traces.\n- Aggregated metrics to compare scenarios.\n\n## Challenges\n\nEnsuring that the model matches expected behavior from the course material.\n\n## Outcome\n\nA teaching tool for exploring the impact of cache replacement policies."
+  },
+  "apollum": {
+    "title": "Apollum",
+    "excerpt": "A UFPel Startup Weekend concept for a personalized music player, including UX/UI research and a Figma prototype.",
+    "body": "## Context\n\nA **UFPel Startup Weekend** project to create a product concept within a few days, including research, a pitch and a prototype.\n\n## How it was built\n\n- Rapid discovery through interviews and desk research.\n- **Apollum**, a concept for a highly customizable music player.\n- **Figma** for an interactive prototype and end-to-end UX/UI work.\n\n## Challenges\n\nA short deadline and the need for a clear product story for the judges.\n\n## Outcome\n\nProduct development experience extending beyond code, from the initial problem to a visual solution."
+  },
+  "resgate-princesa": {
+    "title": "Rescue the Princess!",
+    "excerpt": "A 2D RPG in Java, developed as the final undergraduate Object-Oriented Programming project.",
+    "body": "## Context\n\nA **2D RPG** built as the final **Object-Oriented Programming** course project, applying inheritance, polymorphism and basic patterns.\n\n## How it was built\n\n- **Java** for 2D maps, sprites and collisions.\n- Player, enemy and item entities modeled as collaborating classes.\n\n## Challenges\n\nKeeping the code organized as the game’s scope grew near the deadline.\n\n## Outcome\n\nA playable academic project and a public source repository."
+  },
+  "blackjack": {
+    "title": "Blackjack",
+    "excerpt": "A Blackjack game in C, developed as the final Computer Programming course project.",
+    "body": "## Context\n\nA **Blackjack game in C**, developed as the final Computer Programming course project, focusing on structs, pointers and modular code.\n\n## How it was built\n\n- Models for the deck, hands and rules such as hit, stand and bust.\n- A terminal game loop with input validation.\n\n## Challenges\n\nAvoiding memory leaks while keeping the code readable without object-oriented programming.\n\n## Outcome\n\nPractical experience applying C fundamentals to a familiar game."
+  }
+}

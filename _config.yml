@@ -1,10 +1,12 @@
 # Configurações do site
-title: Pedro Mesquita — Full Stack Developer & IA
-description: Pedro Mesquita — Desenvolvedor Full Stack e Head de Tecnologia. IA, automação, visão computacional e soluções digitais para diversas indústrias.
+title: Pedro Mesquita — Automação, IA & Full Stack
+description: Pedro Mesquita — engenharia de automação e IA, RPA com Playwright, n8n, Python e desenvolvimento full stack. Atuação na Cooperativa Evolua, Sistema Ailos.
 
 url: "" # URL do seu site
 baseurl: "/" # Base URL do seu site (deixe como "/" se estiver na raiz do domínio)
 github_username: pepemesquita
+exclude:
+  - output
 # Configurações do tema
 theme: meu-tema # Nome do diretório do seu tema Jekyll (se aplicável)
 

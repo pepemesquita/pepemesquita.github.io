@@ -1,29 +1,27 @@
 ---
 title: Forma Palavras
 image: /assets/images/forma.jpeg
-external_url: https://github.com/pepemesquita/forma-palavras
+external_url: https://github.com/pepemesquita/Forma_Palavras
 tags:
-  - React
+  - React Native
   - TypeScript
-  - Node.js
   - Expo
-excerpt: App educacional e de apoio a pré-diagnóstico TEA com relatórios para especialistas.
+excerpt: Jogo educacional de formação de palavras com imagens e relatórios de atividades.
 ---
 
 ## Contexto
 
-Aplicativo com finalidade **educacional e de saúde**, voltado a apoiar o **pré-diagnóstico** de crianças com **TEA**, com **monitoramento** por especialista e **relatórios** pós-atividade.
+Implementação digital do jogo físico **Forma Palavras**, em que crianças formam palavras a partir de imagens. O projeto tem finalidade educacional e prevê acompanhamento por especialistas, com registros e relatórios pós-atividade.
 
 ## Como foi feito
 
-- **React**, **TypeScript** e **Expo** para app multiplataforma e componentes consistentes.
-- **Node.js** no back para APIs, autenticação e persistência de sessões de atividade.
-- **Figma** para fluxos de telas e handoff com stakeholders de saúde e educação.
+- **React Native e TypeScript** para interfaces e componentes.
+- **Expo** para execução mobile e web.
+- Recursos de áudio, navegação e exportação de relatórios presentes no projeto.
+- **Figma** para o desenho de telas e protótipos.
 
-## Desafios
+## Objetivo
 
-Respeitar **ética** e **limites** do que um software pode sugerir versus avaliação clínica formal.
+Apoiar atividades educativas e a observação por profissionais, inclusive no contexto de crianças com TEA. O aplicativo não substitui avaliação clínica.
 
-## Resultado
-
-Ferramenta que combina **engajamento infantil** com **dados úteis** para o profissional acompanhar evolução.
+[Ver código e instruções no GitHub](https://github.com/pepemesquita/Forma_Palavras).

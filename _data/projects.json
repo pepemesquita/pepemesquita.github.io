@@ -1,156 +1,398 @@
 [
   {
-    "name": "Quires",
-    "link": "https://site.quires.com.br/",
-    "image": "/assets/images/quires.png",
-    "description": "Foco na identificação de gargalos operacionais e automação utilizando IA. Desenvolvo agentes para imobiliárias que qualificam leads, realizam buscas em bancos de dados e integram ao CRM, além de criar apps mobile com React Native.",
-    "tags": ["AI", "React Native", "n8n", "Python"]
+    "slug": "evolua",
+    "name": "Evolua · Sistema Ailos",
+    "name_en": "Evolua · Sistema Ailos",
+    "cover": "~1h → 2min",
+    "cover_label": "RPA / Playwright",
+    "description": "Automação de processos manuais com RPA e Playwright, criação de fluxos e iniciativas de agentes de IA na cooperativa. Um dos processos passou de cerca de 1 hora para 2 minutos.",
+    "description_en": "Manual process automation with RPA and Playwright, workflow development and AI agent initiatives at the cooperative. One process went from around 1 hour to 2 minutes.",
+    "tags": [
+      "RPA",
+      "Playwright",
+      "IA",
+      "Automação"
+    ],
+    "category": "automacao,ia",
+    "featured": true,
+    "link": ""
   },
   {
-    "name": "Espaço Church Pelotas",
-    "link": "https://espacochurch.org/",
-    "image": "/assets/images/espaco.jpg",
-    "description": "Site institucional e sistema de gestão interna: auth JWT e roles, cursos com gamificação, eventos e presença, Wi-Fi captive UniFi, reconhecimento facial (FastAPI), liderança e admin. Vite, React, TypeScript, Express, Prisma, PostgreSQL, Docker.",
-    "tags": ["React", "TypeScript", "Node.js", "Prisma", "PostgreSQL", "FastAPI", "Docker"]
+    "slug": "espacochurch-jobs",
+    "name": "Espaço Church Jobs",
+    "name_en": "Espaço Church Jobs",
+    "cover": "Talentos & oportunidades",
+    "cover_en": "Talent & opportunities",
+    "cover_label": "Next.js / Supabase",
+    "description": "Diretório de profissionais para conectar talentos, serviços e oportunidades na comunidade. Perfis, busca por categorias, autenticação e contato via WhatsApp ou LinkedIn.",
+    "description_en": "A professional directory connecting talent, services and opportunities in the community. Profiles, category search, authentication and contact through WhatsApp or LinkedIn.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Supabase"
+    ],
+    "category": "web",
+    "featured": true,
+    "link": "https://github.com/pepemesquita/espacochurch-jobs"
   },
   {
-    "name": "BC Energia",
-    "link": "https://grupobcenergia.com.br/",
-    "image": "/assets/images/bcenergia.png",
-    "description": "Desenvolvimento de um fluxo avançado de automação focado na busca e scraping de dados e contas de clientes. O sistema estrutura essas informações para otimizar as estratégias de marketing e anúncios (ADS) da companhia.",
-    "tags": ["Python", "n8n", "APIs"]
+    "slug": "farrapos-field",
+    "name": "Farrapos Field",
+    "name_en": "Farrapos Field",
+    "cover": "Time dentro. Contas em dia.",
+    "cover_en": "Team on the field. Payments on track.",
+    "cover_label": "Next.js / Supabase",
+    "description": "Gestão de mensalidades de um campo de flag football: arrecadação por mês, membros, status de pagamentos e chave Pix em uma interface pensada para celular.",
+    "description_en": "Monthly payment management for a flag football field: fundraising progress, members, payment status and a Pix key in a mobile-first interface.",
+    "tags": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Supabase"
+    ],
+    "category": "web",
+    "featured": true,
+    "link": "https://github.com/pepemesquita/farrapos-field"
   },
   {
-    "name": "Primeira",
-    "link": "https://site.primeiramesa.com.br",
-    "image": "/assets/images/primeira.png",
-    "description": "Atuo como desenvolvedor com foco em automações e fluxos inteligentes, sendo responsável por mapear problemas recorrentes no aplicativo, como falhas em reservas, pagamentos, uso do app e suporte ao usuário. Meu trabalho tem como objetivo reduzir custos operacionais e melhorar a experiência do cliente através da implementação de soluções escaláveis.",
-    "tags": ["React.js", "n8n", "Python", "PHP"]
+    "slug": "unireserva",
+    "name": "UniReserva",
+    "name_en": "UniReserva",
+    "cover": "Uma sala. Um horário.",
+    "cover_en": "A room. A time slot.",
+    "cover_label": "Next.js / Python / TLS",
+    "description": "Sistema acadêmico de reserva de salas e laboratórios, desenvolvido em equipe na UFPel. Frontend em Next.js e servidor Python com comunicação TLS.",
+    "description_en": "An academic room and laboratory booking system, developed with a team at UFPel. Next.js frontend and a Python server with TLS communication.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "TLS"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Unireserva"
   },
   {
-    "name": "Enderson Imports",
-    "link": "https://www.instagram.com/enderson.imports/",
-    "image": "/assets/images/enderson-imports.png",
-    "description": "Dois agentes de IA para qualificar leads na venda de iPhones e em planos mensais; n8n, Python, Supabase, API da Meta, Chatwoot, Slack e notificações em tempo real. Dashboard financeiro PF/PJ com agente secretária/gestor que registra gastos e receitas por conversa.",
-    "tags": ["n8n", "Python", "Supabase", "Chatwoot", "Meta API", "Slack"]
-  },
-  {
-    "name": "Euvatar",
-    "link": "https://www.euvatar.com.br/",
-    "image": "/assets/images/euvatar.png",
-    "description": "Atuei como desenvolvedor estagiário full stack, com foco em automações, integração de IAs proprietárias e criação de interfaces imersivas. Participo do desenvolvimento completo de soluções digitais, desde o design até a implementação de lógica backend.",
-    "tags": ["React.js", "Next.js", "n8n", "Python"]
-  },
-  {
-    "name": "OrsAI",
-    "link": "https://orsai.digital/",
-    "image": "/assets/images/orsai.jpeg",
-    "description": "Desenvolvimento de aplicativo utilizando React.js e elementos de Next.js no front-end, também rotas e integração backend com Node.js, PostgreSQL, Serverless e AWS Lambda",
-    "tags": ["React.js", "Next.js", "Figma"]
-  },
-  {
+    "slug": "nexedia",
     "name": "Nexedia",
-    "link": "https://nexedia.com.br/",
+    "name_en": "Nexedia",
     "image": "/assets/images/nexedia.jpeg",
-    "description": "Este projeto é fruto de uma startup focada em visão computacional e IA aplicada na áea de odontologia. Venho trabalhando no desenvolvimento de um sistema web integrado ao site; A automação de laudos gerados solicitados via whatsapp; A criação e aprimoramento de um agente inteligente utilizando n8n e por fim na atualização do design da página.",
-    "tags": ["React", "n8n", "Figma"]
+    "description": "Startup de visão computacional e IA aplicada à odontologia. Sistema web integrado, automação de laudos via WhatsApp, agente inteligente com n8n e redesign completo da plataforma.",
+    "description_en": "Computer vision and AI for dentistry. An integrated web platform, report workflows through WhatsApp, an n8n agent and a platform redesign.",
+    "tags": [
+      "React",
+      "n8n",
+      "Visão Computacional",
+      "Figma"
+    ],
+    "category": "ia,web,automacao",
+    "featured": true,
+    "link": "https://nexedia.com.br/"
   },
   {
-    "name": "Farmine Land",
-    "link": "https://farmine.land/home",
-    "image": "/assets/images/Farmine.jpeg",
-    "description": "Nesse projeto trabalhei o back-end com C++, Lua, XML com integração para Web3, sendo responsável por auxiliar na parte criativa do jogo.",
-    "tags": ["Lua", "C++", "Content Creative"]
+    "slug": "teeth-detection",
+    "name": "Teeth Detection & Segmentation",
+    "name_en": "Teeth Detection & Segmentation",
+    "image": "/assets/images/tcc.jpeg",
+    "description": "YOLOv8 para classificação e segmentação de dentes decíduos e permanentes em crianças (4-12 anos). Dataset criado em parceria com a odontologia da UFRGS.",
+    "description_en": "YOLOv8 research for detecting and segmenting deciduous and permanent teeth in children aged 4–12, with a dataset developed alongside UFRGS dentistry.",
+    "tags": [
+      "Python",
+      "YOLOv8",
+      "IA"
+    ],
+    "category": "ia",
+    "featured": true,
+    "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation"
   },
   {
-    "name": "Forma Palavras",
-    "link": "https://github.com/pepemesquita/forma-palavras",
-    "image": "/assets/images/forma.jpeg",
-    "description": "Este projeto tem finalidade educacional e médica, fornecendo dados e informações relevantes para o pré-diagnóstico de crianças com Transtorno do Espectro Autista (TEA). Implementado com React, TypeScript, Node.js e Expo. As telas e protótipos foram criados no Figma e o sistema também permite que um especialista monitore o comportamento das crianças durante a atividade, gerando relatórios pós-atividade.",
-    "tags": ["React", "TypeScript", "Figma"]
+    "slug": "quires",
+    "name": "Quires",
+    "name_en": "Quires",
+    "image": "/assets/images/quires.png",
+    "description": "Agentes de IA para imobiliárias: qualificação de leads, buscas em banco de dados, integração com CRM. Apps mobile com React Native.",
+    "description_en": "AI agents for real estate: lead qualification, database queries and CRM integration. Internal and client automations, plus React Native mobile development.",
+    "tags": [
+      "IA",
+      "React Native",
+      "n8n",
+      "Python"
+    ],
+    "category": "ia,mobile,automacao",
+    "featured": true,
+    "link": "https://site.quires.com.br/"
   },
   {
+    "slug": "primeira-mesa",
+    "name": "Primeira Mesa",
+    "name_en": "Primeira Mesa",
+    "image": "/assets/images/primeira.png",
+    "description": "Automações e fluxos inteligentes para app de restaurantes. Resolução de falhas em reservas, pagamentos e suporte — reduzindo custos operacionais.",
+    "description_en": "Automation and intelligent workflows for a restaurant app. Process mapping and integrations supporting reservations, payments and customer service.",
+    "tags": [
+      "React.js",
+      "n8n",
+      "Python",
+      "PHP"
+    ],
+    "category": "web,automacao",
+    "featured": true,
+    "link": "https://site.primeiramesa.com.br"
+  },
+  {
+    "slug": "enderson-imports",
+    "name": "Enderson Imports",
+    "name_en": "Enderson Imports",
+    "image": "/assets/images/enderson-imports.png",
+    "description": "Dois agentes para qualificar leads em iPhones e planos mensais — n8n, Python, Supabase, API da Meta, Chatwoot, Slack e notificações em tempo real. Dashboard financeiro PF/PJ com agente que faz papel de secretária e gestor: você informa gastos e receitas na conversa e o painel atualiza.",
+    "description_en": "Two AI agents for lead qualification, plus a personal and business finance dashboard. n8n, Python, Supabase, Meta API, Chatwoot and Slack integrations.",
+    "tags": [
+      "n8n",
+      "Python",
+      "Supabase",
+      "Chatwoot",
+      "Meta API",
+      "Slack"
+    ],
+    "category": "ia,web,automacao",
+    "featured": true,
+    "link": "https://www.instagram.com/enderson.imports/"
+  },
+  {
+    "slug": "espaco-church",
+    "name": "Espaço Church Pelotas",
+    "name_en": "Espaço Church Pelotas",
+    "image": "/assets/images/espaco.jpg",
+    "description": "Site institucional e plataforma interna para membros, cursos, eventos, presença e administração, com integração de Wi-Fi e reconhecimento facial opcional.",
+    "description_en": "An institutional website and an internal platform for members, courses, events, attendance and administration, with Wi-Fi integration and optional facial recognition.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Prisma",
+      "FastAPI",
+      "Docker"
+    ],
+    "category": "web,ia,automacao",
+    "featured": true,
+    "link": "https://espacochurch.org/"
+  },
+  {
+    "slug": "bc-energia",
+    "name": "BC Energia",
+    "name_en": "BC Energia",
+    "image": "/assets/images/bcenergia.png",
+    "description": "Automação de busca e scraping de dados de clientes para otimizar estratégias de marketing e anúncios.",
+    "description_en": "Automated collection and structuring of customer data to support marketing and advertising strategies, using Python, n8n and APIs.",
+    "tags": [
+      "Python",
+      "n8n",
+      "APIs"
+    ],
+    "category": "automacao,web",
+    "featured": true,
+    "link": "https://grupobcenergia.com.br/"
+  },
+  {
+    "slug": "orsai",
+    "name": "OrsAI",
+    "name_en": "OrsAI",
+    "image": "/assets/images/orsai.jpeg",
+    "description": "Aplicação full-stack com React.js, Next.js, Node.js, PostgreSQL, Serverless e AWS Lambda.",
+    "description_en": "Full stack development with React.js, Next.js, Node.js, PostgreSQL, Serverless and AWS Lambda.",
+    "tags": [
+      "React.js",
+      "Next.js",
+      "AWS Lambda"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://www.instagram.com/orsai.digital/"
+  },
+  {
+    "slug": "euvatar",
+    "name": "Euvatar",
+    "name_en": "Euvatar",
+    "image": "/assets/images/euvatar.png",
+    "description": "Dev full stack com foco em automações, integração de IAs proprietárias e criação de interfaces imersivas.",
+    "description_en": "Full stack internship focused on automation, proprietary AI integrations and immersive interfaces.",
+    "tags": [
+      "React.js",
+      "Next.js",
+      "n8n",
+      "Python"
+    ],
+    "category": "web,ia,automacao",
+    "featured": false,
+    "link": "https://www.euvatar.com.br/"
+  },
+  {
+    "slug": "dogs-nose-detection",
     "name": "Dogs Nose Detection",
-    "link": "https://github.com/pepemesquita/Dogs_Nose_Detection",
-    "image": "assets/images/dogs.png",
-    "description": "Este projeto se concentra no desenvolvimento de um modelo para detectar narizes de cães usando a estrutura de detecção de objetos YOLOv8. O objetivo é criar um sistema de detecção preciso e confiável que possa ser usado para fins de pesquisa científica no futuro.",
-    "tags": ["Python", "Yolo", "AI"]
+    "name_en": "Dogs Nose Detection",
+    "image": "/assets/images/dogs.png",
+    "description": "Modelo YOLOv8 para detectar narizes de cães — sistema para pesquisa científica futura.",
+    "description_en": "A YOLOv8 model for detecting dog noses in images, developed as a foundation for future scientific research.",
+    "tags": [
+      "Python",
+      "YOLOv8",
+      "IA"
+    ],
+    "category": "ia",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Dogs_Nose_Detection"
   },
   {
+    "slug": "farmine-land",
+    "name": "Farmine Land",
+    "name_en": "Farmine Land",
+    "image": "/assets/images/Farmine.jpeg",
+    "description": "Back-end com C++, Lua, XML integrado a Web3. Responsável pela parte criativa do jogo.",
+    "description_en": "Game backend work with C++, Lua and XML, Web3 integration and contributions to gameplay design.",
+    "tags": [
+      "Lua",
+      "C++",
+      "Web3"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://farmine.land/home"
+  },
+  {
+    "slug": "forma-palavras",
+    "name": "Forma Palavras",
+    "name_en": "Forma Palavras",
+    "image": "/assets/images/forma.jpeg",
+    "description": "Jogo educacional de formação de palavras a partir de imagens, com React Native, TypeScript e Expo. Registros e relatórios de atividades apoiam a observação por especialistas.",
+    "description_en": "An educational word-building game using images, built with React Native, TypeScript and Expo. Activity records and reports support specialist observation.",
+    "tags": [
+      "React Native",
+      "TypeScript",
+      "Expo"
+    ],
+    "category": "mobile,ia",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Forma_Palavras"
+  },
+  {
+    "slug": "dubinhas",
     "name": "Dubinhas",
-    "link": "https://www.instagram.com/p/C26l4yquuST/",
+    "name_en": "Dubinhas",
     "image": "/assets/images/Dubinhas.jpeg",
-    "description": "Nesse projeto desenvolvi um aplicativo auxiliar para professores e alunos com deficiência auditiva se comunicarem e interagirem em suas tarefas diárias. Tecnologia utilizadas: React, TypeScript, Node.js e Expo para criar interfaces e componentes de aplicativos.",
-    "tags": ["React", "TypeScript", "Figma"]
+    "description": "App para auxiliar professores e alunos com deficiência auditiva em comunicação e tarefas diárias.",
+    "description_en": "A React Native and TypeScript app that helps teachers and students with hearing disabilities communicate and collaborate at school.",
+    "tags": [
+      "React Native",
+      "TypeScript",
+      "Expo"
+    ],
+    "category": "mobile",
+    "featured": false,
+    "link": "https://www.instagram.com/p/C26l4yquuST/"
   },
   {
-    "name": "Teeth Detection and Segmentation",
-    "link": "https://github.com/pepemesquita/Tooth_Detection_and_Segmentation",
-    "image": "assets/images/tcc.jpeg",
-    "description": "Atualmente estou me dedicando à aplicação e treinamento da rede neural YOLOv8 para classificação e segmentação de dentes decíduos e permanentes em crianças de 4 a 12 anos, dataset criado em parceria com o curso de odontologia da UFRGS.",
-    "tags": ["Python", "Yolo", "AI"]
-  },
-  {
-    "name": "Apollum",
-    "link": "",
-    "image": "/assets/images/apollum.jpeg",
-    "description": "Este projeto é estudo de caso feito para o evento Startup Weekend da UFPEL. A ideia era criar um produto do zero, fazer um estudo, gerar pesquisa e ver a possibilidade de venda. No caso do meu grupo criamos o Apollum, um reprodutor musical com diversas personalizações. Fui responsável pelo desenvolvimento do protótipo doproduto e UX/UI",
-    "tags": ["UX/UI", "Figma"]
-  },
-  {
-    "name": "Universidade UNES",
-    "link": "https://unes-universidade-blue.vercel.app/",
-    "image": "assets/images/unes.png",
-    "description": "O objetivo do projeto é criar um site para uma universidade fictícia, contendo páginas para apresentação, informações sobre a universidade, e uma página de contato.",
-    "tags": ["HTML", "CSS"]
-  },
-  {
-    "name": "Monitoria PC",
-    "link": "https://github.com/pepemesquita/Monitoria",
-    "image": "https://img.freepik.com/fotos-gratis/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador_23-2150010125.jpg",
-    "description": "Contém uma série de exercícios desenvolvidos quando fui monitor da disciplina de Programação de Computadores. Os exercícios abrangem diversas áreas da programação, incluindo alocação dinâmica, ponteiros, funções e estruturas de dados.",
-    "tags": ["C"]
-  },
-  {
-    "name": "Sistema de Gerenciamento Hospitalar",
-    "link": "https://github.com/pepemesquita/Hospital_Pelotas",
-    "image": "assets/images/hospital.png",
-    "description": "Desenvolvi um sistema de gerenciamento hospitalar robusto, utilizando uma combinação de tecnologias de ponta, o sistema oferece funcionalidades abrangentes, adaptadas às necessidades de diferentes setores: médicos, farmácia, pacientes e etc.",
-    "tags": ["Javascript", "Node.js", "Express.js", "MySQL", "Apache"]
-  },
-  {
-    "name": "Face Recognition in Python",
-    "link": "https://github.com/pepemesquita/Face_Recognition",
+    "slug": "face-recognition",
+    "name": "Face Recognition",
+    "name_en": "Face Recognition",
     "image": "https://miro.medium.com/v2/resize:fit:690/1*2VEXmDdBxs8yo7Le5KRTpw.png",
-    "description": "Este projeto é uma implementação de reconhecimento facial em Python para o grupo de robótica da universidade. Ele usa a biblioteca OpenCV, os frameworks Dlib, Haar Cascade e Media Pipe para capturar imagens de câmeras e realizar reconhecimento facial em tempo real.",
-    "tags": ["Python"]
+    "description": "Reconhecimento facial em Python para robótica. OpenCV, Dlib, Haar Cascade e MediaPipe em tempo real.",
+    "tags": [
+      "Python",
+      "OpenCV",
+      "Dlib"
+    ],
+    "category": "ia",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Face_Recognition",
+    "description_en": "Real-time face recognition in Python for university robotics, using OpenCV, Dlib, Haar Cascade and MediaPipe."
   },
   {
-    "name": "Cache Simulator",
-    "link": "https://github.com/pepemesquita/Cache_simulator",
-    "image": "https://www.hardware.com.br/wp-content/uploads/static/wp/2023/05/22/cache.jpg",
-    "description": "Um simulador de cache completo, com a sofisticada política de substituição aleatória. Este simulador foi implementado para oferecer uma experiência envolvente e realista na gestão de memória cache. Os usuários podem explorar o impacto da política de substituição aleatória em diferentes cenários de acesso à memória.",
-    "tags": ["Python"]
+    "slug": "hospital-system",
+    "name": "Sistema de Gerenciamento Hospitalar",
+    "name_en": "Hospital Management System",
+    "image": "/assets/images/hospital.png",
+    "description": "Sistema robusto com funcionalidades para médicos, farmácia, pacientes e gestão hospitalar completa.",
+    "description_en": "An academic hospital management system for doctors, pharmacy, patients and administration. Node.js, Express and MySQL.",
+    "tags": [
+      "JavaScript",
+      "Node.js",
+      "MySQL"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Hospital_Pelotas"
   },
   {
+    "slug": "ai-classification",
     "name": "AI Classification",
-    "link": "https://github.com/pepemesquita/h2ia",
+    "name_en": "AI Classification",
     "image": "https://www.researchgate.net/publication/360593200/figure/fig5/AS:11431281179452357@1691190157220/In-situ-PCA-for-Iris-dataset-classification-a-Example-images-of-classified-Iris.png",
-    "description": "Este projeto é uma implementação de dois treinamentos de classificação em Python para o grupo HUB de Inteligência Artificial da UFPEL. Usei algunas datasets públicos do kaggle e desenvolvi um treinamento usando uma árvore de decisão.",
-    "tags": ["Python", "Sklearn"]
+    "description": "Classificação com árvore de decisão usando datasets do Kaggle para o HUB de IA da UFPel.",
+    "description_en": "Decision-tree classification with public datasets for the UFPel Artificial Intelligence Hub, using Python and Scikit-learn.",
+    "tags": [
+      "Python",
+      "Scikit-learn"
+    ],
+    "category": "ia",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/h2ia"
   },
   {
+    "slug": "cache-simulator",
+    "name": "Cache Simulator",
+    "name_en": "Cache Simulator",
+    "image": "https://www.hardware.com.br/wp-content/uploads/static/wp/2023/05/22/cache.jpg",
+    "description": "Simulador de cache com política de substituição aleatória para explorar gestão de memória.",
+    "description_en": "An educational cache simulator with a random replacement policy for exploring memory management.",
+    "tags": [
+      "Python"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Cache_simulator"
+  },
+  {
+    "slug": "apollum",
+    "name": "Apollum",
+    "name_en": "Apollum",
+    "image": "/assets/images/apollum.jpeg",
+    "description": "Estudo de caso para Startup Weekend UFPel — reprodutor musical personalizado. UX/UI e prototipação.",
+    "description_en": "A UFPel Startup Weekend concept for a personalized music player, including UX/UI research and a Figma prototype.",
+    "tags": [
+      "UX/UI",
+      "Figma"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": ""
+  },
+  {
+    "slug": "resgate-princesa",
     "name": "Resgate a Princesa!",
-    "link": "https://github.com/pepemesquita/RPG_2D",
+    "name_en": "Rescue the Princess!",
     "image": "https://img.itch.zone/aW1hZ2UvMjIwOTU2MC8xMzA2NjY4Ny5wbmc=/original/Wryvn1.png",
-    "description": "Um RPG 2D feito como projeto final quando eu estava estudando os conceitos de Programação Orientada a Objetos durante minha graduação.",
-    "tags": ["Java"]
+    "description": "RPG 2D em Java como projeto final de Programação Orientada a Objetos na graduação.",
+    "description_en": "A 2D RPG in Java, developed as the final undergraduate Object-Oriented Programming project.",
+    "tags": [
+      "Java"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/RPG_2D"
   },
   {
+    "slug": "blackjack",
     "name": "Blackjack",
-    "link": "https://github.com/pepemesquita/Blackjack-Game",
+    "name_en": "Blackjack",
     "image": "https://images.sigma.world/blackjack-card-counting-scaled-1.jpg",
-    "description": "No jogo Blackjack você deve atingir um número próximo de 21 ou chegar a 21, para vencer o jogo. Desenvolvido como trabalho final da disciplina de Programação de Computadores.",
-    "tags": ["C"]
+    "description": "Jogo de Blackjack em C — trabalho final da disciplina de Programação de Computadores.",
+    "description_en": "A Blackjack game in C, developed as the final Computer Programming course project.",
+    "tags": [
+      "C"
+    ],
+    "category": "web",
+    "featured": false,
+    "link": "https://github.com/pepemesquita/Blackjack-Game"
   }
 ]

@@ -1,12 +1,17 @@
+{% assign project_slug = page.url | split: '/' | last %}
+{% assign translation = site.data.project_translations[project_slug] %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} — Case | Pedro Mesquita</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ page.title }} — case de projeto | Pedro Mesquita{% endif %}">
+  <title data-en="{{ translation.title | escape }} — Case study | Pedro Mesquita">{{ page.title }} — Case | Pedro Mesquita</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 | escape }}" data-en-content="{{ translation.excerpt | escape }}">
+  <meta property="og:title" content="{{ page.title | escape }} — Pedro Mesquita" data-en-content="{{ translation.title | escape }} — Pedro Mesquita">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}" data-en-content="{{ translation.excerpt | escape }}">
   <meta name="theme-color" content="#06060b">
   <link rel="icon" href="/assets/images/logo.png" type="image/png">
+  <script src="/assets/js/i18n.js"></script>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -20,12 +25,13 @@
         <img src="/assets/images/logo.png" alt="Logo PM">
         <span>Pedro<span style="color: var(--accent);">.</span></span>
       </a>
-      <div class="nav-links">
-        <a href="/" class="nav-link">Sobre</a>
-        <a href="/project" class="nav-link active">Projetos</a>
-        <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener" class="nav-cta">Falar Comigo</a>
+      <div class="nav-links" id="main-navigation">
+        <a href="/" class="nav-link"><span data-en="About">Sobre</span></a>
+        <a href="/project" class="nav-link active"><span data-en="Projects">Projetos</span></a>
+        <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener" class="nav-cta"><span data-en="Get in touch">Falar Comigo</span></a>
       </div>
-      <button class="nav-toggle" aria-label="Menu">
+      {% include language-switcher.html %}
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-navigation">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -34,7 +40,7 @@
 
   <main class="project-detail-page page-transition">
     <div class="container">
-      <a href="/project" class="project-detail-back">← Todos os projetos</a>
+      <a href="/project" class="project-detail-back"><span data-en="← All projects">← Todos os projetos</span></a>
 
       <header class="project-detail-header">
         {% if page.image %}
@@ -42,26 +48,27 @@
           <img src="{{ page.image }}" alt="{{ page.title }}" width="1200" height="630" loading="eager">
         </div>
         {% endif %}
-        <span class="section-label">// case do projeto</span>
-        <h1 class="project-detail-title">{{ page.title }}</h1>
+        <span class="section-label"><span data-en="// project case study">// case do projeto</span></span>
+        <h1 class="project-detail-title" data-en="{{ translation.title | escape }}">{{ page.title }}</h1>
         {% if page.tags.size > 0 %}
         <div class="project-detail-tags">
           {% for tag in page.tags %}
-          <span class="project-tag">{{ tag }}</span>
+          <span class="project-tag"{% if tag == 'Visão computacional' %} data-en="Computer Vision"{% elsif tag == 'IA / visão' %} data-en="AI / vision"{% elsif tag == 'Automação' %} data-en="Automation"{% elsif tag == 'IA' %} data-en="AI"{% endif %}>{{ tag }}</span>
           {% endfor %}
         </div>
         {% endif %}
       </header>
 
       <article class="project-detail-content">
-        {{ content }}
+        <div data-language="pt-BR" lang="pt-BR">{{ content }}</div>
+        <div data-language="en" lang="en">{{ translation.body | markdownify }}</div>
       </article>
 
       <div class="project-detail-actions">
         {% if page.external_url and page.external_url != '' and page.external_url != '#' %}
-        <a href="{{ page.external_url }}" class="btn-primary" target="_blank" rel="noopener noreferrer">Abrir site / repositório</a>
+        <a href="{{ page.external_url }}" class="btn-primary" target="_blank" rel="noopener noreferrer"><span data-en="Open website / repository">Abrir site / repositório</span></a>
         {% endif %}
-        <a href="/project" class="btn-secondary">Voltar à lista</a>
+        <a href="/project" class="btn-secondary"><span data-en="Back to projects">Voltar à lista</span></a>
       </div>
     </div>
   </main>
@@ -71,7 +78,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <h3>Pedro Mesquita<span style="color: var(--accent);">.</span></h3>
-          <p>Construindo soluções que fazem a diferença — uma linha de código por vez.</p>
+          <p><span data-en="Building solutions that make a difference — one line of code at a time.">Construindo soluções que fazem a diferença — uma linha de código por vez.</span></p>
         </div>
         <div class="footer-social">
           <a href="https://github.com/pepemesquita" target="_blank" rel="noopener" class="social-link" aria-label="GitHub" title="GitHub">
@@ -89,8 +96,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 Pedro Mesquita. Todos os direitos reservados.</p>
-        <p class="footer-quote">"O código é poesia que máquinas conseguem ler."</p>
+        <p><span data-en="© 2026 Pedro Mesquita. All rights reserved.">&copy; 2026 Pedro Mesquita. Todos os direitos reservados.</span></p>
+        <p class="footer-quote"><span data-en="“Code is poetry that machines can read.”">"O código é poesia que máquinas conseguem ler."</span></p>
       </div>
     </div>
   </footer>

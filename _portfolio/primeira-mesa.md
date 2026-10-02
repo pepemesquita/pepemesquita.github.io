@@ -12,7 +12,7 @@ excerpt: Automações e suporte ao app de restaurantes — reservas, pagamentos 
 
 ## Contexto
 
-O **Primeira Mesa** é um app de restaurantes onde atuo com **automações**, **suporte** e resolução de problemas recorrentes (reservas, pagamentos, uso do app).
+O **Primeira Mesa** é um app de restaurantes com experiência em **automações**, **suporte** e resolução de problemas recorrentes (reservas, pagamentos, uso do app).
 
 ## Como foi feito
 

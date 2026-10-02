@@ -1,6 +1,6 @@
 ---
 layout: null
-title: Pedro Mesquita — Full Stack Developer & IA
+title: Pedro Mesquita — Automação, IA & Full Stack
 permalink: /
 ---
 <!DOCTYPE html>
@@ -8,13 +8,14 @@ permalink: /
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pedro Mesquita — Full Stack Developer, IA & Automação</title>
-  <meta name="description" content="Pedro Mesquita — Desenvolvedor Full Stack e Head de Tecnologia. IA, automação, visão computacional e soluções digitais para diversas áreas.">
-  <meta property="og:title" content="Pedro Mesquita — Full Stack Developer & IA">
-  <meta property="og:description" content="Portfólio de Pedro Mesquita. Desenvolvedor Full Stack, Head de Tech, IA e automação para diversas indústrias.">
+  <title data-en="Pedro Mesquita — AI Automation Engineer &amp; Full Stack Developer">Pedro Mesquita — Automação, IA &amp; Full Stack</title>
+  <meta name="description" content="Pedro Mesquita — automação, IA e full stack. RPA e Playwright na Cooperativa Evolua, Sistema Ailos. n8n, Python e mais de 3 anos de experiência." data-en-content="Pedro Mesquita — AI Automation Engineer and Full Stack Developer. RPA and Playwright at Cooperativa Evolua, Sistema Ailos. n8n, Python and 3+ years of experience.">
+  <meta property="og:title" content="Pedro Mesquita — Automação, IA &amp; Full Stack" data-en-content="Pedro Mesquita — AI Automation Engineer &amp; Full Stack Developer">
+  <meta property="og:description" content="RPA, agentes de IA e desenvolvimento full stack. De processos manuais a automações que devolvem tempo às pessoas." data-en-content="RPA, AI agents and full stack development. Turning manual processes into automations that give people their time back.">
   <meta property="og:image" content="/assets/images/logo.png">
   <meta name="theme-color" content="#06060b">
   <link rel="icon" href="/assets/images/logo.png" type="image/png">
+  <script src="/assets/js/i18n.js"></script>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -32,12 +33,13 @@ permalink: /
         <img src="/assets/images/logo.png" alt="Logo PM">
         <span>Pedro<span style="color: var(--accent);">.</span></span>
       </a>
-      <div class="nav-links">
-        <a href="/" class="nav-link active">Sobre</a>
-        <a href="/project" class="nav-link">Projetos</a>
-        <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" class="nav-cta">Falar Comigo</a>
+      <div class="nav-links" id="main-navigation">
+        <a href="/" class="nav-link active"><span data-en="About">Sobre</span></a>
+        <a href="/project" class="nav-link"><span data-en="Projects">Projetos</span></a>
+        <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener noreferrer" class="nav-cta"><span data-en="Get in touch">Falar Comigo</span></a>
       </div>
-      <button class="nav-toggle" aria-label="Menu">
+      {% include language-switcher.html %}
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-navigation">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -50,7 +52,7 @@ permalink: /
       <div class="hero-content">
         <div class="hero-badge">
           <span class="pulse-dot"></span>
-          Disponível para novos projetos
+          <span data-en="Available for new projects">Disponível para novos projetos</span>
         </div>
 
         <h1 class="hero-title">
@@ -59,20 +61,20 @@ permalink: /
 
         <div class="hero-subtitle-wrapper">
           <span class="hero-subtitle">
-            &gt;&nbsp;<span id="typewriter" data-words='["Full Stack Developer","IA &amp; Automação","Head de Tech","Visão Computacional"]'></span><span class="typing-cursor"></span>
+            &gt;&nbsp;<span id="typewriter" data-words='["Engenharia de Automação & IA","RPA & Playwright","Full Stack Developer","n8n & Python"]' data-words-en='["AI Automation Engineer","RPA & Playwright","Full Stack Developer","n8n & Python"]'></span><span class="typing-cursor"></span>
           </span>
         </div>
 
         <p class="hero-desc">
-          Transformo problemas complexos em soluções inteligentes. IA, automação de processos e desenvolvimento Full Stack para diversas indústrias.
+          <span data-en="I automate processes to give people their time back. RPA, AI agents and full stack development — turning manual routines into working workflows.">Automatizo processos para devolver tempo às pessoas. RPA, agentes de IA e desenvolvimento full stack — da rotina manual ao fluxo que funciona.</span>
         </p>
 
         <div class="hero-buttons">
           <a href="/project" class="btn-primary">
-            Ver Projetos
+            <span data-en="View projects">Ver Projetos</span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" class="btn-secondary">
+          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener noreferrer" class="btn-secondary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             WhatsApp
           </a>
@@ -95,23 +97,12 @@ permalink: /
   <section class="section" id="stats">
     <div class="container">
       <div class="stats-grid stagger-children">
-        <div class="stat-card">
-          <div class="stat-number" data-count="20" data-suffix="+">0</div>
-          <div class="stat-label">Projetos</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" data-count="4" data-suffix="+">0</div>
-          <div class="stat-label">Anos de Experiência</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" data-count="3" data-suffix="">0</div>
-          <div class="stat-label">Idiomas</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number" data-count="2" data-suffix="">0</div>
-          <div class="stat-label">Campeonatos</div>
-        </div>
+        <div class="stat-card"><div class="stat-number">3+</div><div class="stat-label"><span data-en="Years of professional experience">Anos de experiência profissional</span></div></div>
+        <div class="stat-card"><div class="stat-number">&gt;60%</div><div class="stat-label"><span data-en="Operational cost reduction in projects">Redução de custos operacionais em projetos</span></div></div>
+        <div class="stat-card"><div class="stat-number">80%</div><div class="stat-label"><span data-en="Reduction in average support response time">Redução no tempo médio de resposta do suporte</span></div></div>
+        <div class="stat-card"><div class="stat-number">150+</div><div class="stat-label"><span data-en="Daily customers benefiting from faster support">Clientes diários com atendimento mais ágil</span></div></div>
       </div>
+      <p class="impact-note"><span data-en="Results from different projects throughout my professional career.">Resultados de diferentes projetos ao longo da minha trajetória profissional.</span></p>
     </div>
   </section>
 
@@ -119,62 +110,63 @@ permalink: /
   <section class="section" id="about">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">// sobre mim</span>
-        <h2 class="section-title">Código com propósito.<br>Tecnologia com impacto.</h2>
+        <span class="section-label"><span data-en="// about me">// sobre mim</span></span>
+        <h2 class="section-title"><span data-en="Code with purpose.&lt;br&gt;Technology with impact.">Código com propósito.<br>Tecnologia com impacto.</span></h2>
       </div>
 
       <div class="about-grid">
         <div class="about-text reveal-left">
-          <h3>Engenharia de software, IA e visão de negócio</h3>
-          <p>
-            Sou <span class="highlight">Pedro Mesquita</span>, 23 anos, Desenvolvedor Full Stack e <span class="highlight">Tech Partner na Vistto Online</span> — uma agência digital onde realizo a construção de soluções tecnológicas para clientes de diversas áreas.
-          </p>
-          <p>
-            Meu diferencial está na interseção entre <span class="highlight">IA e produto</span>: desenvolvo desde sistemas de visão computacional (trabalhando com as versões mais recentes, como YOLOv26) até agentes inteligentes para automação de processos e fluxos que transformam operações manuais em resultados escaláveis.
-          </p>
-          <p>
-            Atualmente também atuo na <span class="highlight">Primeira Mesa</span> com <span class="highlight">automações e suporte</span>, e na <span class="highlight">Quires</span> como <span class="highlight">desenvolvedor full stack</span> — com <span class="highlight">automações internas e para clientes</span>, além de <span class="highlight">mobile com Expo e React Native</span>.
-          </p>
-          <p>
-            Formado em <span class="highlight">Ciência da Computação pela UFPel</span>, com passagem por competições de robótica (campeão URUCUP 2023, 3º lugar LARC 2023), contribuições acadêmicas como monitor de programação, e uma paixão constante por resolver problemas que fazem diferença real — em qualquer área.
-          </p>
+          <h3><span data-en="Automation, AI and development with real impact">Automação, IA e desenvolvimento com impacto real</span></h3>
+          <p><span data-en="I’m &lt;span class=&quot;highlight&quot;&gt;Pedro Mesquita&lt;/span&gt;, a Computer Science graduate from UFPel with &lt;span class=&quot;highlight&quot;&gt;3+ years of professional experience&lt;/span&gt; in AI automation engineering, automation development and full stack development.">Sou <span class="highlight">Pedro Mesquita</span>, bacharel em Ciência da Computação pela UFPel, com <span class="highlight">mais de 3 anos de experiência</span> em engenharia e desenvolvimento de automações com IA e desenvolvimento full stack.</span></p>
+          <p><span data-en="At &lt;span class=&quot;highlight&quot;&gt;Cooperativa Evolua, part of Sistema Ailos&lt;/span&gt;, I automate manual processes with &lt;span class=&quot;highlight&quot;&gt;RPA and Playwright&lt;/span&gt;, build workflows and contribute to AI agent initiatives. Results include tasks that went from around &lt;span class=&quot;highlight&quot;&gt;1 hour to 2 minutes&lt;/span&gt;.">Atualmente, na <span class="highlight">Cooperativa Evolua, do Sistema Ailos</span>, automatizo processos manuais com <span class="highlight">RPA e Playwright</span>, desenvolvo fluxos e participo de iniciativas de agentes de IA. Entre os resultados, tarefas que levavam cerca de <span class="highlight">1 hora passaram a levar 2 minutos</span>.</span></p>
+          <p><span data-en="My experience includes process mapping, automation and ETL with &lt;span class=&quot;highlight&quot;&gt;n8n, Python and JavaScript&lt;/span&gt;, API integrations, AWS Lambda, Serverless and Docker infrastructure, plus UI/UX design and Figma prototyping. I also developed a React Native and TypeScript app to support inclusion in education.">Minha experiência inclui mapeamento de processos, automação e ETL com <span class="highlight">n8n, Python e JavaScript</span>, integração de APIs, infraestrutura com AWS Lambda, Serverless e Docker, além de interfaces e protótipos no Figma. Também desenvolvi um app com React Native e TypeScript para apoiar a inclusão no ambiente escolar.</span></p>
+          <p><span data-en="I combine technical expertise with communication, adaptability, proactivity and critical thinking. In robotics, I won the &lt;span class=&quot;highlight&quot;&gt;URUCUP 2023 Small Size League championship&lt;/span&gt;, bringing research and problem-solving experience into the solutions I build.">Combino conhecimento técnico com comunicação, adaptabilidade, proatividade e pensamento crítico. Na robótica, fui <span class="highlight">campeão da URUCUP 2023 — Small Size League</span>, levando a experiência de pesquisa e resolução de problemas para as soluções que construo.</span></p>
         </div>
 
         <div class="reveal-right">
           <div class="timeline">
             <div class="timeline-item">
-              <div class="timeline-role">Tech Partner</div>
-              <div class="timeline-company">Vistto Online</div>
-              <div class="timeline-date">Presente</div>
-              <div class="timeline-desc">Liderança técnica em agência digital. IA, automações e sistemas web para clientes de diversas indústrias.</div>
+              <div class="timeline-role"><span data-en="Process automation &amp;amp; AI">Automação de processos &amp; IA</span></div>
+              <div class="timeline-company">Cooperativa Evolua · Sistema Ailos</div>
+              <div class="timeline-date"><span data-en="Current work">Atuação atual</span></div>
+              <div class="timeline-desc"><span data-en="RPA with Playwright, workflow development and AI agent initiatives. Automating previously manual tasks, reducing execution time from ~1 hour to 2 minutes.">RPA com Playwright, criação de fluxos e iniciativas de agentes de IA. Automação de tarefas antes manuais, com execuções reduzidas de ~1 hora para 2 minutos.</span></div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-role">Desenvolvedor Full Stack</div>
+              <div class="timeline-role"><span data-en="Full Stack Developer">Desenvolvedor Full Stack</span></div>
               <div class="timeline-company">Quires</div>
-              <div class="timeline-date">Presente</div>
-              <div class="timeline-desc">Full stack, automações internas e para clientes, e apps mobile com Expo e React Native.</div>
+              <div class="timeline-date"><span data-en="Experience and projects">Experiência e projetos</span></div>
+              <div class="timeline-desc"><span data-en="Full stack development, internal and client automations, and mobile apps with Expo and React Native.">Full stack, automações internas e para clientes, e apps mobile com Expo e React Native.</span></div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-role">Automações &amp; suporte</div>
+              <div class="timeline-role"><span data-en="Automation &amp;amp; support">Automações &amp; suporte</span></div>
               <div class="timeline-company">Primeira Mesa</div>
-              <div class="timeline-date">Presente</div>
-              <div class="timeline-desc">Automações de processos, integrações e suporte técnico ao produto.</div>
+              <div class="timeline-date"><span data-en="Experience and projects">Experiência e projetos</span></div>
+              <div class="timeline-desc"><span data-en="Process automation, integrations and technical product support.">Automações de processos, integrações e suporte técnico ao produto.</span></div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-role">Desenvolvedor Full Stack</div>
+              <div class="timeline-role"><span data-en="Full Stack Developer">Desenvolvedor Full Stack</span></div>
               <div class="timeline-company">Euvatar / OrsAI / Freelance</div>
               <div class="timeline-date">2022 — 2024</div>
-              <div class="timeline-desc">React, Next.js, Node.js, Python. Apps mobile, dashboards, integrações serverless com AWS Lambda.</div>
+              <div class="timeline-desc"><span data-en="React, Next.js, Node.js and Python. Mobile apps, dashboards and serverless integrations with AWS Lambda.">React, Next.js, Node.js, Python. Apps mobile, dashboards, integrações serverless com AWS Lambda.</span></div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-role">Pesquisador IA & Robótica</div>
-              <div class="timeline-company">UFPel — Ciência da Computação</div>
+              <div class="timeline-role"><span data-en="AI &amp;amp; Robotics Researcher">Pesquisador IA & Robótica</span></div>
+              <div class="timeline-company"><span data-en="UFPel — Computer Science">UFPel — Ciência da Computação</span></div>
               <div class="timeline-date">2021 — 2025</div>
-              <div class="timeline-desc">Visão computacional, YOLO (v8 ao v26), datasets com UFRGS. Campeão URUCUP SSL 2023.</div>
+              <div class="timeline-desc"><span data-en="Computer vision, YOLO and datasets with UFRGS. URUCUP SSL 2023 champion.">Visão computacional, YOLO, datasets com UFRGS. Campeão URUCUP SSL 2023.</span></div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section impact-section">
+    <div class="container">
+      <a class="impact-story reveal" href="/project/evolua/">
+        <div><span class="section-label"><span data-en="// in practice at Evolua · Ailos">// em prática na Evolua · Ailos</span></span><h2><span data-en="Less manual work.&lt;br&gt;More time for what matters.">Menos trabalho manual.<br>Mais tempo para o que importa.</span></h2><p><span data-en="RPA, Playwright and automation workflows applied to the cooperative’s daily operations.">RPA, Playwright e fluxos de automação aplicados à rotina da cooperativa.</span></p></div>
+        <div class="impact-timing"><span class="impact-before"><span data-en="Before · ~1 hour">Antes · ~1 hora</span></span><strong>2 min</strong><span><span data-en="With automation, in one of the processes">Com automação, em um dos processos</span></span><span class="project-card-link"><span data-en="Explore the work →">Conheça o trabalho →</span></span></div>
+      </a>
     </div>
   </section>
 
@@ -183,8 +175,8 @@ permalink: /
     <div class="container">
       <div class="section-header reveal">
         <span class="section-label">// tech stack</span>
-        <h2 class="section-title">Ferramentas & Tecnologias</h2>
-        <p class="section-desc">As tecnologias que uso para transformar ideias em produtos reais.</p>
+        <h2 class="section-title"><span data-en="Tools &amp;amp; technologies">Ferramentas & Tecnologias</span></h2>
+        <p class="section-desc"><span data-en="The technologies I use to turn ideas into working products.">As tecnologias que uso para transformar ideias em produtos reais.</span></p>
       </div>
 
       <div class="skills-container stagger-children">
@@ -204,6 +196,7 @@ permalink: /
           <div class="skill-group-title"><span class="icon">🔧</span> Backend</div>
           <div class="skill-tags">
             <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">JavaScript</span>
             <span class="skill-tag">Python</span>
             <span class="skill-tag">Express</span>
             <span class="skill-tag">AWS Lambda</span>
@@ -212,17 +205,20 @@ permalink: /
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title"><span class="icon">🧠</span> IA & Machine Learning</div>
+          <div class="skill-group-title"><span class="icon">🧠</span> <span data-en="AI &amp;amp; Machine Learning">IA & Machine Learning</span></div>
           <div class="skill-tags">
-            <span class="skill-tag">YOLO (v8–v26)</span>
+            <span class="skill-tag">YOLO</span>
             <span class="skill-tag">OpenCV</span>
             <span class="skill-tag">Scikit-learn</span>
             <span class="skill-tag">n8n Agents</span>
-            <span class="skill-tag">Visão Computacional</span>
+            <span class="skill-tag">RPA</span>
+            <span class="skill-tag">Playwright</span>
+            <span class="skill-tag">ETL</span>
+            <span class="skill-tag"><span data-en="Computer Vision">Visão Computacional</span></span>
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title"><span class="icon">🗄️</span> Banco de Dados</div>
+          <div class="skill-group-title"><span class="icon">🗄️</span> <span data-en="Databases">Banco de Dados</span></div>
           <div class="skill-tags">
             <span class="skill-tag">PostgreSQL</span>
             <span class="skill-tag">MongoDB</span>
@@ -232,7 +228,7 @@ permalink: /
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title"><span class="icon">🛠️</span> DevOps & Ferramentas</div>
+          <div class="skill-group-title"><span class="icon">🛠️</span> <span data-en="DevOps &amp;amp; Tools">DevOps & Ferramentas</span></div>
           <div class="skill-tags">
             <span class="skill-tag">Git / GitHub</span>
             <span class="skill-tag">Docker</span>
@@ -242,7 +238,7 @@ permalink: /
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title"><span class="icon">🏗️</span> Outras</div>
+          <div class="skill-group-title"><span class="icon">🏗️</span> <span data-en="Other">Outras</span></div>
           <div class="skill-tags">
             <span class="skill-tag">C / C++</span>
             <span class="skill-tag">Java</span>
@@ -258,38 +254,38 @@ permalink: /
   <section class="section" id="education">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">// formação</span>
-        <h2 class="section-title">Educação & Idiomas</h2>
+        <span class="section-label"><span data-en="// education">// formação</span></span>
+        <h2 class="section-title"><span data-en="Education &amp;amp; languages">Educação & Idiomas</span></h2>
       </div>
 
       <div class="about-grid">
         <div class="reveal-left">
           <div class="info-grid" style="grid-template-columns: 1fr;">
             <div class="info-card">
-              <div class="info-card-title">CST em Banco de Dados: Data Analytics</div>
+              <div class="info-card-title"><span data-en="Technology Degree in Databases: Data Analytics">CST em Banco de Dados: Data Analytics</span></div>
               <div class="info-card-sub">PUCRS — Porto Alegre/RS</div>
               <div class="info-card-date">Jan 2026 — Jan 2029</div>
             </div>
             <div class="info-card">
-              <div class="info-card-title">Bacharelado em Ciência da Computação</div>
+              <div class="info-card-title"><span data-en="Bachelor’s Degree in Computer Science">Bacharelado em Ciência da Computação</span></div>
               <div class="info-card-sub">UFPel — Pelotas/RS</div>
-              <div class="info-card-date">Fev 2021 — Out 2025</div>
+              <div class="info-card-date"><span data-en="Feb 2021 — Oct 2025">Fev 2021 — Out 2025</span></div>
             </div>
             <div class="info-card">
-              <div class="info-card-title">Ensino Médio Completo</div>
+              <div class="info-card-title"><span data-en="High School Diploma">Ensino Médio Completo</span></div>
               <div class="info-card-sub">I.E.E Carmela Dutra — Porto Velho/RO</div>
-              <div class="info-card-date">Fev 2017 — Nov 2019</div>
+              <div class="info-card-date"><span data-en="Feb 2017 — Nov 2019">Fev 2017 — Nov 2019</span></div>
             </div>
           </div>
         </div>
 
         <div class="reveal-right">
           <div class="info-card" style="margin-bottom: 24px;">
-            <div class="skill-group-title" style="margin-bottom: 20px;"><span class="icon">🌍</span> Idiomas</div>
+            <div class="skill-group-title" style="margin-bottom: 20px;"><span class="icon">🌍</span> <span data-en="Languages">Idiomas</span></div>
             <div class="lang-item">
               <div class="lang-header">
-                <span class="lang-name">Inglês</span>
-                <span class="lang-level">C1 — Avançado</span>
+                <span class="lang-name"><span data-en="English">Inglês</span></span>
+                <span class="lang-level"><span data-en="C1 — Advanced">C1 — Avançado</span></span>
               </div>
               <div class="lang-bar">
                 <div class="lang-bar-fill" data-width="85%"></div>
@@ -297,8 +293,8 @@ permalink: /
             </div>
             <div class="lang-item">
               <div class="lang-header">
-                <span class="lang-name">Holandês</span>
-                <span class="lang-level">A2 — Básico</span>
+                <span class="lang-name"><span data-en="Dutch">Holandês</span></span>
+                <span class="lang-level"><span data-en="A2 — Basic">A2 — Básico</span></span>
               </div>
               <div class="lang-bar">
                 <div class="lang-bar-fill" data-width="30%"></div>
@@ -306,8 +302,8 @@ permalink: /
             </div>
             <div class="lang-item">
               <div class="lang-header">
-                <span class="lang-name">Espanhol</span>
-                <span class="lang-level">A2 — Básico</span>
+                <span class="lang-name"><span data-en="Spanish">Espanhol</span></span>
+                <span class="lang-level"><span data-en="A2 — Basic">A2 — Básico</span></span>
               </div>
               <div class="lang-bar">
                 <div class="lang-bar-fill" data-width="35%"></div>
@@ -316,16 +312,16 @@ permalink: /
           </div>
 
           <div class="info-card">
-            <div class="skill-group-title" style="margin-bottom: 16px;"><span class="icon">🏆</span> Reconhecimentos</div>
+            <div class="skill-group-title" style="margin-bottom: 16px;"><span class="icon">🏆</span> <span data-en="Awards">Reconhecimentos</span></div>
             <div style="margin-bottom: 12px;">
               <div class="info-card-title" style="font-size: 0.95rem;">
-                <a href="https://utec.edu.uy/es/noticia/mas-de-50-estudiantes-en-cinco-equipos-disputaron-el-primer-campeonato-de-futbol-con-jugadores-robots-y-definicion-por-penales-en-utec/" target="_blank" style="color: var(--accent); text-decoration: underline dotted;">Campeão URUCUP SSL 2023</a>
+                <a href="https://utec.edu.uy/es/noticia/mas-de-50-estudiantes-en-cinco-equipos-disputaron-el-primer-campeonato-de-futbol-con-jugadores-robots-y-definicion-por-penales-en-utec/" target="_blank" style="color: var(--accent); text-decoration: underline dotted;"><span data-en="URUCUP SSL 2023 Champion">Campeão URUCUP SSL 2023</span></a>
               </div>
-              <div class="info-card-date">Robótica, Visão Computacional, Python, ROS</div>
+              <div class="info-card-date"><span data-en="Robotics, Computer Vision, Python, ROS">Robótica, Visão Computacional, Python, ROS</span></div>
             </div>
             <div>
-              <div class="info-card-title" style="font-size: 0.95rem;">3º Lugar LARC 2023</div>
-              <div class="info-card-date">Liga de Robótica SSL • UFPel</div>
+              <div class="info-card-title" style="font-size: 0.95rem;"><span data-en="3rd Place at LARC 2023">3º Lugar LARC 2023</span></div>
+              <div class="info-card-date"><span data-en="SSL Robotics League • UFPel">Liga de Robótica SSL • UFPel</span></div>
             </div>
           </div>
         </div>
@@ -333,21 +329,31 @@ permalink: /
     </div>
   </section>
 
+  <section class="section" id="certifications"><div class="container">
+    <div class="section-header reveal"><span class="section-label"><span data-en="// continuous learning">// aprendizado contínuo</span></span><h2 class="section-title"><span data-en="Certifications &amp;amp; further education">Certificações &amp; formação complementar</span></h2></div>
+    <div class="certifications-grid stagger-children"><div class="info-card"><h3 class="info-card-title"><span data-en="Santander Tech+ | Back-End">Santander Tech+ | Back-End</span></h3><p class="info-card-sub">AdaTech</p></div>
+<div class="info-card"><h3 class="info-card-title"><span data-en="Introduction to Front-End Development">Introduction to Front-End Development</span></h3><p class="info-card-sub">Meta</p></div>
+<div class="info-card"><h3 class="info-card-title"><span data-en="Extension Course in Artificial Intelligence">Curso de extensão em Inteligência Artificial</span></h3><p class="info-card-sub">USP</p></div>
+<div class="info-card"><h3 class="info-card-title"><span data-en="Mobile Robotics and AI for Automation in Industry">Robótica Móvel e IA para Automação na Indústria</span></h3><p class="info-card-sub">UTEC & U.S. Embassy</p></div>
+<div class="info-card"><h3 class="info-card-title"><span data-en="Diversity &amp; Inclusion Mentorship Program">Programa de Mentoria em Diversidade e Inclusão</span></h3><p class="info-card-sub">Cadence</p></div>
+<div class="info-card"><h3 class="info-card-title"><span data-en="Web Development in React.js: Development">Desenvolvimento Web em React.js</span></h3><p class="info-card-sub">Coursera</p></div></div>
+  </div></section>
+
   <!-- ==================== CTA ==================== -->
   <section class="section" id="cta" style="padding: 80px 0;">
     <div class="container" style="text-align: center;">
       <div class="reveal">
-        <span class="section-label">// vamos trabalhar juntos</span>
-        <h2 class="section-title" style="margin-bottom: 24px;">Tem um projeto em mente?</h2>
+        <span class="section-label"><span data-en="// let’s work together">// vamos trabalhar juntos</span></span>
+        <h2 class="section-title" style="margin-bottom: 24px;"><span data-en="Have a project in mind?">Tem um projeto em mente?</span></h2>
         <p class="section-desc" style="margin-bottom: 36px;">
-          Estou sempre aberto a novos desafios — seja um projeto de IA, uma aplicação web ou automação de processos para o seu negócio.
+          <span data-en="I’m open to new challenges — an AI project, a web application or process automation for your business.">Estou sempre aberto a novos desafios — seja um projeto de IA, uma aplicação web ou automação de processos para o seu negócio.</span>
         </p>
         <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" class="btn-primary">
+          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener noreferrer" class="btn-primary">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            Falar Comigo
+            <span data-en="Get in touch">Falar Comigo</span>
           </a>
-          <a href="/project" class="btn-secondary">Ver Projetos</a>
+          <a href="/project" class="btn-secondary"><span data-en="View projects">Ver Projetos</span></a>
         </div>
       </div>
     </div>
@@ -359,26 +365,26 @@ permalink: /
       <div class="footer-grid">
         <div class="footer-brand">
           <h3>Pedro Mesquita<span style="color: var(--accent);">.</span></h3>
-          <p>Construindo soluções que fazem a diferença — uma linha de código por vez.</p>
+          <p><span data-en="Building solutions that make a difference — one line of code at a time.">Construindo soluções que fazem a diferença — uma linha de código por vez.</span></p>
         </div>
         <div class="footer-social">
-          <a href="https://github.com/pepemesquita" target="_blank" class="social-link" aria-label="GitHub" title="GitHub">
+          <a href="https://github.com/pepemesquita" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub" title="GitHub">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
           </a>
-          <a href="https://www.linkedin.com/in/pedrohenli/" target="_blank" class="social-link" aria-label="LinkedIn" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/pedrohenli/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn" title="LinkedIn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href="https://www.instagram.com/pedromesquita.tech" target="_blank" class="social-link" aria-label="Instagram" title="Instagram">
+          <a href="https://www.instagram.com/pedromesquita.tech" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram" title="Instagram">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
           </a>
-          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" class="social-link" aria-label="WhatsApp" title="WhatsApp">
+          <a href="https://api.whatsapp.com/send?phone=5569993989944&text=Oi%20Pedro!" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp" title="WhatsApp">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           </a>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 Pedro Mesquita. Todos os direitos reservados.</p>
-        <p class="footer-quote">"O código é poesia que máquinas conseguem ler."</p>
+        <p><span data-en="© 2026 Pedro Mesquita. All rights reserved.">&copy; 2026 Pedro Mesquita. Todos os direitos reservados.</span></p>
+        <p class="footer-quote"><span data-en="“Code is poetry that machines can read.”">"O código é poesia que máquinas conseguem ler."</span></p>
       </div>
     </div>
   </footer>

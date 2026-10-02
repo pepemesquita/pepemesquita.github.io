@@ -4,12 +4,13 @@
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // --- Custom Cursor ---
   const dot = document.querySelector('.cursor-dot');
   const ring = document.querySelector('.cursor-ring');
 
-  if (dot && ring && window.matchMedia('(pointer: fine)').matches) {
+  if (dot && ring && !reducedMotion && window.matchMedia('(pointer: fine)').matches) {
     let mouseX = 0, mouseY = 0;
     let ringX = 0, ringY = 0;
 
@@ -52,28 +53,36 @@ document.addEventListener('DOMContentLoaded', () => {
   const overlay = document.querySelector('.nav-overlay');
 
   if (toggle && navLinks) {
+    const setMenu = (open) => {
+      navLinks.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      if (overlay) overlay.classList.toggle('open', open);
+    };
     toggle.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-      if (overlay) overlay.classList.toggle('open');
+      setMenu(!navLinks.classList.contains('open'));
     });
     if (overlay) {
       overlay.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        overlay.classList.remove('open');
+        setMenu(false);
       });
     }
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        if (overlay) overlay.classList.remove('open');
+        setMenu(false);
       });
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+        setMenu(false);
+        toggle.focus();
+      }
     });
   }
 
   // --- Typewriter Effect ---
   const typewriterEl = document.getElementById('typewriter');
   if (typewriterEl) {
-    const words = JSON.parse(typewriterEl.dataset.words);
+    let words;
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -104,7 +113,18 @@ document.addEventListener('DOMContentLoaded', () => {
       timeout = setTimeout(typeLoop, speed);
     }
 
-    typeLoop();
+    function restartTypewriter() {
+      clearTimeout(timeout);
+      words = JSON.parse(document.documentElement.lang === 'en' ? typewriterEl.dataset.wordsEn : typewriterEl.dataset.words);
+      wordIndex = 0;
+      charIndex = 0;
+      isDeleting = false;
+      typewriterEl.textContent = '';
+      if (reducedMotion) typewriterEl.textContent = words[0];
+      else typeLoop();
+    }
+    document.addEventListener('languagechange', restartTypewriter);
+    restartTypewriter();
   }
 
   // --- Animated Counters ---
@@ -175,8 +195,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
+      filterBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
 
       const filter = btn.dataset.filter;
 
@@ -184,26 +208,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const categories = card.dataset.category.split(',');
         const show = filter === 'all' || categories.includes(filter);
 
-        if (show) {
-          card.style.display = '';
-          setTimeout(() => {
-            card.style.opacity = '1';
-            card.style.transform = 'translateY(0)';
-          }, 50);
-        } else {
-          card.style.opacity = '0';
-          card.style.transform = 'translateY(20px)';
-          setTimeout(() => {
-            card.style.display = 'none';
-          }, 400);
-        }
+        card.hidden = !show;
+        if (show) card.classList.add('visible');
       });
     });
   });
 
   // --- Grid Background Canvas ---
   const canvas = document.getElementById('bg-canvas');
-  if (canvas) {
+  if (canvas && !reducedMotion) {
     const ctx = canvas.getContext('2d');
     let w, h;
     let particles = [];

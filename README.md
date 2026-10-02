@@ -1,50 +1,46 @@
-# meu-tema
+# Pedro Mesquita — portfólio
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Site estático com Jekyll, publicado no GitHub Pages. Conteúdo em português do Brasil e inglês, com preferência de idioma salva no navegador.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Desenvolvimento
 
-TODO: Delete this and the text above, and describe your gem
+Com Ruby e Bundler instalados:
 
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "meu-tema"
+```sh
+bundle install
+bundle exec jekyll serve
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+O site fica disponível em `http://localhost:4000`. Para gerar a versão de produção:
 
-```yaml
-theme: meu-tema
+```sh
+bundle exec jekyll build
 ```
 
-And then execute:
+O workflow `.github/workflows/jekyll.yml` executa o build e a publicação em pushes para `main`.
 
-    $ bundle
+## Conteúdo e tradução
 
-Or install it yourself as:
+- `index.html`: apresentação, experiência, resultados, tecnologias, formação e certificações.
+- `_data/projects.json`: fonte dos 24 cards, sua ordem, filtros, descrições PT-BR/EN e links.
+- `_portfolio/<slug>.md`: conteúdo em português das páginas de projeto.
+- `_data/project_translations.json`: título, descrição e corpo Markdown em inglês de cada case, indexados pelo mesmo slug.
+- `_layouts/portfolio-item.html`: layout compartilhado dos cases.
+- `_includes/language-switcher.html` e `assets/js/i18n.js`: seletor e persistência do idioma.
 
-    $ gem install meu-tema
+Para traduzir textos curtos, use `data-en` com o HTML em inglês escapado no atributo e o português dentro do elemento. Para metadados, use `data-en-content`. Não aninhe elementos com `data-en`. O conteúdo deve ser escrito e revisado no repositório; não há serviço de tradução externo.
 
-## Usage
+Ao adicionar um projeto, inclua seu card, arquivo Markdown e tradução com o mesmo slug. Use aspas em campos YAML que contenham dois-pontos. As duas versões do corpo do case são renderizadas pelo Jekyll; apenas o idioma escolhido fica visível. Sem JavaScript, o conteúdo em português permanece acessível.
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+## Fontes da atualização de carreira e projetos
 
-## Contributing
+A atuação na Evolua/Ailos, as certificações e os resultados profissionais foram fornecidos por Pedro. Os indicadores de redução de custos e tempo de suporte descrevem a trajetória profissional, sem atribuição automática à Evolua. O exemplo de ~1 hora para 2 minutos refere-se a um processo específico na cooperativa.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/meu-tema. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Repositórios públicos consultados em 2 de outubro de 2026 (README e dependências):
 
-## Development
+- [Espaço Church Jobs](https://github.com/pepemesquita/espacochurch-jobs)
+- [Farrapos Field](https://github.com/pepemesquita/farrapos-field)
+- [UniReserva](https://github.com/pepemesquita/Unireserva)
+- [Forma Palavras](https://github.com/pepemesquita/Forma_Palavras)
 
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `meu-tema.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+A consulta cobriu projetos públicos. Cases de trabalhos privados mantêm o contexto já informado no portfólio.
